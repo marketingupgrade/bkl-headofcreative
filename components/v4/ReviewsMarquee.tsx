@@ -25,7 +25,7 @@ const row1Cards: EvidenceCard[] = [
   { tag: "Duurzaamheid · EDC", text: "Their products have never let me down. I've worn a belt of theirs for 6 years.", nl: "Hun producten hebben me nooit in de steek gelaten. Ik draag er al zes jaar een.", name: "LamerGamer · GB", role: "3-pack unboxing · jul 2026" },
   { tag: "Het geluid", text: "*ASMR", nl: "*ASMR", name: "Kijker", role: "Onder de video van Ryan Hunter" },
   { tag: "EDC · productverzoek", text: "Another thing I would really like is customizable buckles.", nl: "Wat ik ook graag zou willen: gespen die je zelf kunt aanpassen.", name: "LamerGamer · GB", role: "3-pack unboxing · jul 2026" },
-  { tag: "De funnel", text: "I came across this brand on Instagram. They did really good marketing, really good adverts. I have fallen for it.", nl: "Ik zag dit merk op Instagram. Heel goede marketing, heel goede advertenties. Ik ben erin getrapt.", name: "Davidson Reviews · GB", role: "Zelf gekocht" },
+  { tag: "De funnel", text: "I came across this brand on Instagram. They did really good marketing, really good adverts. I have fallen for it.", nl: "Ik zag dit merk op Instagram. Heel goede marketing, heel goede advertenties. Ik ben overstag gegaan.", name: "Davidson Reviews · GB", role: "Zelf gekocht" },
 ];
 
 const row2Cards: EvidenceCard[] = [
