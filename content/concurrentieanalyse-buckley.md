@@ -39,7 +39,7 @@
 5. **Buckley zit qua positionering tussen twee vuren.**
    - Onderkant: klonen verkopen dezelfde belofte voor €29,95 met 2+1-acties.
    - Bovenkant: Nordform en Anson verkopen merk, vakmanschap en garantie voor €69–79 / vanaf $49,99.
-   - Buckley: €39,95 met "van €79,95", 100 dagen retour en geen garantie. Voor de koper lijkt dat meer op de onderkant dan op de bovenkant.
+   - Buckley: €39,95 met "van €79,95", 100 dagen retour en geen garantie gevonden op de site. Voor de koper lijkt dat meer op de onderkant dan op de bovenkant.
 
 ---
 
@@ -59,7 +59,7 @@ Gekozen zijn merken die hetzelfde product verkopen, een verstelbare riem zonder 
 
 | Merk | Thuis / markten | Actieve ads* | Taal in ads | Instapprijs (site) | Belofte na aankoop | Bewijs dat ze claimen |
 |---|---|---|---|---|---|---|
-| **Buckley** (referentie) | NL, 16 landen in EU + VK | ~470 | 100% Engels | €39,95 (van €79,95) | 100 dagen retour, geen garantie | Site: 1.000.000+ klanten. Ads: 500.000+. Site toont 7.951 reviews zonder platform; Trustpilot 4,7 over 7.994 |
+| **Buckley** (referentie) | NL, 16 landen in EU + VK | ~470 | 100% Engels | €39,95 (van €79,95) | 100 dagen retour, geen garantie gevonden op de site | Site: 1.000.000+ klanten. Ads: 500.000+. Site toont 7.951 reviews zonder platform; Trustpilot 4,7 over 7.994 |
 | **Nordform** | DK; .dk/.de/.se/.com | ~200 | EN 102 · DA 51 · DE 24 · SV 13 | €69,52 (van €79); 3 riemen €139,92 | 100 dagen retour + levenslange garantie | Trustpilot 4,8, 10.600+ reviews; 100.000+ klanten |
 | **Anson Belt & Buckle** | VS; verzendt wereldwijd | ~32 | Engels | vanaf $49,99 | Levenslange garantie (alleen VS) | 300.000+ mannen, 42.000+ reviews (ads) |
 | **SlideBelts** | VS | ~22 | Engels | $29–39 | 1 jaar garantie, 45 dagen retour | 400.000 orders én "500k+ shipped" |

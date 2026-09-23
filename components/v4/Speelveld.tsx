@@ -21,7 +21,7 @@ const PRICES = [
   { brand: "Biscomi", price: 29.95, label: "€29,95", note: "40% korting", up: true },
   { brand: "SlideBelts", price: 31.5, label: "$29–39", note: "12 mnd garantie", up: false },
   { brand: "Buckle UP", price: 34.95, label: "€34,95", note: "2+1 gratis", up: true },
-  { brand: "Buckley", price: 39.95, label: "€39,95", note: "“van €79,95” · 100 dagen retour · geen garantie", up: false, own: true },
+  { brand: "Buckley", price: 39.95, label: "€39,95", note: "“van €79,95” · 100 dagen retour · geen garantie gevonden", up: false, own: true },
   { brand: "Anson", price: 46, label: "vanaf $49,99", note: "levenslang (VS)", up: true },
   { brand: "Nordform", price: 69.52, label: "€69,52", note: "levenslange garantie", up: false },
 ];
@@ -116,7 +116,7 @@ export default function Speelveld() {
         </ul>
         <p className="m-0 text-[18px] leading-relaxed text-[#FFFFFFb3] max-w-[46rem]">
           Onder: klonen met dezelfde belofte voor €29,95 en 2+1. Boven: merk, vakmanschap en levenslange garantie. Buckley zegt “van
-          €79,95” maar geeft geen garantie, en lijkt voor de koper daardoor{" "}
+          €79,95”, maar op de site vond ik geen garantie. Voor de koper lijkt Buckley daardoor{" "}
           <span className="text-white">meer op de onderkant dan op de bovenkant.</span>
         </p>
 
