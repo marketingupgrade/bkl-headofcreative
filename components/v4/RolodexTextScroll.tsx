@@ -2,7 +2,7 @@
 
 /**
  * @component RolodexTextScroll
- * @description Viewer questions · BYQ gem "Rolodex Text Scroll", motion verbatim
+ * @description Two viewer questions · BYQ gem "Rolodex Text Scroll", motion verbatim
  *   (FLIP 1, DWELL 0.4, LEAD 0.25, SETTLE 0.65, TILT ±12°, power4.inOut,
  *   scrub 1). Each face is a verbatim YouTube question with a Dutch
  *   translation underneath.
@@ -33,11 +33,8 @@ const EASE = "power4.inOut";
 // Verbatim viewer questions from the YouTube audit (names omitted);
 // [brackets] mark the cream spans.
 const LINES = [
-  { en: "“Do they have [females belts]?”", nl: "Hebben ze ook damesriemen?" },
-  { en: "“[How do you take it off]!?”", nl: "Hoe krijg je hem áf?" },
-  { en: "“Have you liked it so far? [Is it good quality?]”", nl: "Bevalt hij? Is de kwaliteit goed?" },
-  { en: "“Buy from the USA or Canada, [not China?]”", nl: "Kopen uit de VS of Canada, niet uit China?" },
-  { en: "“[Song ?]”", nl: "Welk liedje? De enige reactie onder 111.359 views." },
+  { en: "“Do they have [females belts]?”", nl: "Hebben ze ook damesriemen? De best gelikete reactie in alle zes video's." },
+  { en: "“[How do you take it off]!?”", nl: "Hoe krijg je hem áf? Zes likes, en niemand die het laat zien." },
 ];
 
 /** Render a line, turning [bracketed] phrases into amber spans. */
@@ -160,7 +157,7 @@ export default function RolodexTextScroll() {
       `}</style>
 
       {/* Scroll runway — 220vh: five lines at the compressed pacing */}
-      <div ref={trackRef} className="rolodex-track" style={{ height: "220vh" }}>
+      <div ref={trackRef} className="rolodex-track" style={{ height: "120vh" }}>
         {/* Sticky stage — holds the 3D perspective (pin fights Lenis) */}
         <div
           ref={stageRef}
@@ -182,13 +179,13 @@ export default function RolodexTextScroll() {
             className="rolodex-eyebrow absolute left-0 right-0 bottom-[12vh] m-0 text-center font-mono uppercase px-6"
             style={{ fontSize: "12px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF66" }}
           >
-            Vijf vragen · nul antwoorden van het merk
+            Twee vragen · het merk kan ze allebei zelf beantwoorden
           </p>
           {/* The drum reel */}
           <ol
             ref={reelRef}
             className="rolodex-reel"
-            aria-label="Vijf vragen van kijkers onder Buckley-video's, letterlijk"
+            aria-label="Twee vragen van kijkers onder Buckley-video's, letterlijk"
             style={{
               position: "absolute",
               inset: 0,

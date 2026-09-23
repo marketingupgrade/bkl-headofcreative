@@ -12,7 +12,15 @@ import { gsap } from "./lib/gsap";
 
 const FG_COLOR = "#FFFFFF";
 
-export default function BlurRevealCopy() {
+export default function BlurRevealCopy({
+  children,
+  eyebrow,
+  note,
+}: {
+  children: React.ReactNode;
+  eyebrow?: string;
+  note?: string;
+}) {
   const rootRef = React.useRef<HTMLElement>(null);
   const textRef = React.useRef<HTMLParagraphElement>(null);
 
@@ -112,6 +120,12 @@ export default function BlurRevealCopy() {
           WebkitFontSmoothing: "antialiased",
         }}
       >
+        <div className="flex flex-col">
+          {eyebrow && (
+            <div className="uppercase font-mono mb-6" style={{ fontSize: "12px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF99" }}>
+              {eyebrow}
+            </div>
+          )}
         <p
           ref={textRef}
           className="m-0 font-sans"
@@ -124,11 +138,14 @@ export default function BlurRevealCopy() {
             willChange: "transform",
           }}
         >
-          Op Meta target je steeds minder met instellingen en steeds meer
-          met creative. De advertentie bepaalt zelf wie hem te zien krijgt.
-          Dus is creative niet de boodschap bovenop de targeting.{" "}
-          <em className="accent">Creative ís de targeting.</em>
+          {children}
         </p>
+          {note && (
+            <p className="m-0 mt-6 font-mono uppercase" style={{ fontSize: "11px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF80" }}>
+              {note}
+            </p>
+          )}
+        </div>
       </section>
     </>
   );

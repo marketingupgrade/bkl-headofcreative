@@ -349,7 +349,7 @@ export default function TextMaskZoomHero() {
               color: "rgba(255,255,255,0.88)",
             }}
           >
-            Q4 Creative Strategie · Buckley Belts
+            Joris van Huët · Upgrade van de Creative Engine · Buckley Belts
           </p>
 
               {/* Scroll cue: thin pulsing cream line with a label. */}
@@ -469,7 +469,7 @@ export default function TextMaskZoomHero() {
                   willChange: "transform, opacity",
                 }}
               >
-                Q4 Creative Strategie · Buckley Belts
+                Joris van Huët · Upgrade van de Creative Engine · Buckley Belts
               </p>
 
               {/* Scroll cue: thin pulsing cream line with a label. */}

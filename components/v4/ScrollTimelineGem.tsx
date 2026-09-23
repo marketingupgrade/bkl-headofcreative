@@ -263,7 +263,7 @@ export default function ScrollTimelineGem() {
           style={{
             display: "flex",
             flexDirection: "column",
-            gap: "7rem",
+            gap: "5rem",
             position: "relative",
           }}
         >

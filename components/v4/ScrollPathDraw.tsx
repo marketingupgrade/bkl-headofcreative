@@ -214,7 +214,7 @@ export default function ScrollPathDraw() {
         style={{ color: FG, background: BG }}
       >
         {/* Scroll runway — sticky stage inside (see header: pin fights Lenis) */}
-        <div ref={trackRef} style={{ height: reduce ? "auto" : "170vh" }}>
+        <div ref={trackRef} style={{ height: reduce ? "auto" : "150vh" }}>
           <div
             className={reduce ? "relative" : "sticky top-0"}
             style={{

@@ -101,7 +101,7 @@ export default function SchematicExplainer() {
 
   return (
     <section className="relative font-sans" style={{ backgroundColor: "#0E0E0E", color: FG, fontSize: "17px", lineHeight: 1.5 }}>
-      <div ref={outerRef} className="relative h-[260vh] max-[767px]:h-[220vh]">
+      <div ref={outerRef} className="relative h-[200vh] max-[767px]:h-[180vh]">
         <div className="sticky top-0 overflow-hidden grid gap-16 max-[991px]:gap-8 max-[991px]:content-center items-center max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5 h-screen [grid-template-columns:0.9fr_1.1fr] max-[991px]:[grid-template-columns:1fr]">
           <div className="absolute top-24 max-[767px]:top-16 left-8 max-[991px]:left-6 max-[767px]:left-5 inline-flex flex-row items-center gap-2">
             <div style={{ width: "8px", height: "8px", borderRadius: "2px", backgroundColor: FG }} />

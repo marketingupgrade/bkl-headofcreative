@@ -2,26 +2,28 @@
 
 /**
  * @component StatsReveal
- * @description The AOV lever · BYQ gem "Scroll Text Reveal" (scroll-text-reveal-01):
+ * @description Word-by-word statement · BYQ gem "Scroll Text Reveal" (scroll-text-reveal-01):
  *   each word rises from yPercent 115 inside an overflow mask (power3.out,
- *   stagger 0.35, scrub 0.8). The figures are arithmetic on an assumed AOV
- *   and are labelled as such under the sentence.
+ *   stagger 0.35, scrub 0.8). Copy comes in as props; any assumption goes in the
+ *   footnote under the sentence.
  */
 
 import * as React from "react";
 import { gsap } from "./lib/gsap";
 
-// §2 of the strategy. Arithmetic on an assumed AOV, labelled as such
-// under the headline; no Buckley data.
-const STATS: Array<{ text: string; accent?: boolean }> = [
-  { text: "Bij ruim 400.000 orders per kwartaal maakt €5 extra orderwaarde " },
-  { text: "zo'n 35.000 orders", accent: true },
-  { text: " minder nodig. Dat komt uit bundels en pre-landers, " },
-  { text: "niet uit een nieuwe hook.", accent: true },
-];
+export type RevealPart = { text: string; accent?: boolean };
 
+type Props = {
+  parts: RevealPart[];
+  /** Small mono line under the sentence (assumptions, sources). */
+  footnote?: string;
+  /** Scroll runway; longer sentences want more. */
+  runway?: string;
+  /** Headline scale, for a short statement vs a long sentence. */
+  size?: "statement" | "sentence";
+};
 
-export default function StatsReveal() {
+export default function StatsReveal({ parts, footnote, runway = "220vh", size = "sentence" }: Props) {
   const rootRef = React.useRef<HTMLElement>(null);
   const pinRef = React.useRef<HTMLDivElement>(null);
   const h2Ref = React.useRef<HTMLHeadingElement>(null);
@@ -108,7 +110,7 @@ export default function StatsReveal() {
       }}
     >
       {/* Scroll runway — 300vh per the gem; stage is sticky, not pinned. */}
-      <div ref={pinRef} style={{ position: "relative", height: "220vh" }}>
+      <div ref={pinRef} style={{ position: "relative", height: runway }}>
         <div
           className="sticky top-0"
           style={{
@@ -126,9 +128,9 @@ export default function StatsReveal() {
             ref={h2Ref}
             className="m-0 font-sans"
             style={{
-              maxWidth: "26ch",
+              maxWidth: size === "statement" ? "20ch" : "26ch",
               fontWeight: 700,
-              fontSize: "clamp(1.8rem, 4.4vw, 3.6rem)",
+              fontSize: size === "statement" ? "clamp(2.1rem, 5.4vw, 4.6rem)" : "clamp(1.8rem, 4.4vw, 3.6rem)",
               lineHeight: 1.04,
               letterSpacing: "-0.01em",
             }}
@@ -136,7 +138,7 @@ export default function StatsReveal() {
             {/* Copy comes from site.config.ts → statsReveal. Each `em` is
                 an accent-highlighted fragment; the word-reveal animation
                 walks the text nodes, so any sentence shape works. */}
-            {STATS.map((part, i) =>
+            {parts.map((part, i) =>
               part.accent ? (
                 <em key={i} className="accent">
                   {part.text}
@@ -146,12 +148,14 @@ export default function StatsReveal() {
               ),
             )}
           </h2>
-          <p
-            className="m-0 font-mono uppercase"
-            style={{ fontSize: "11px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF80", maxWidth: "60ch" }}
-          >
-            Rekenwerk: $25M in Q4 bij een aangenomen AOV van €55 · geen data van Buckley · §2 van de strategie
-          </p>
+          {footnote && (
+            <p
+              className="m-0 font-mono uppercase"
+              style={{ fontSize: "11px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF80", maxWidth: "60ch" }}
+            >
+              {footnote}
+            </p>
+          )}
         </div>
       </div>
     </section>

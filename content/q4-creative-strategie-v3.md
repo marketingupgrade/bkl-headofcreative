@@ -294,6 +294,8 @@ Vier plekken, en ze zijn geen van alle fataal, maar wie ze niet benoemt loopt er
 
 ## 7. Twaalf niche-hypotheses voor Buckley
 
+> **Bijgewerkt na de audience-audit (23 september).** De YouTube-audit voegt *vrouwen* toe als tier 1-kandidaat en *vegan en bewust* en *de tinkerer* als nieuwe niches, en herschrijft hypothese 2 van "de man die afvalt" naar **"de veranderende maat"**: schommeling in plaats van afvallen. De tabel hieronder is de stand van vóór die audit. Zie [de audit, §6](/audit/#6-wat-dit-doet-met-de-nichelijst-uit-de-strategie).
+
 **Dit zijn hypotheses, geen bevindingen.** Ik heb niet geluisterd, ik heb geredeneerd vanuit het product, de reviews en de advertenties. Precies dit lijstje is wat een week echte listening moet bevestigen, omgooien of vervangen. Als er in week 2 drie op de lijst staan die ik hier niet noem, heeft de luisterfunctie zijn eerste week terugverdiend.
 
 Ze staan op volgorde van hoe overtuigd ik ben, en de bovenste vier zijn mijn Tier 1- en Tier 2-kandidaten.

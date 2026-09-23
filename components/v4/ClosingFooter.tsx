@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 /**
  * @component ClosingFooter
  * @description The ask that closes the page, in the dark numbered-list
- *   style of cargo-structured-data-1. No footer: the page is written for
- *   the founders, not for navigation.
+ *   style of cargo-structured-data-1, then a sign-off with name, date and
+ *   the two documents. No navigation footer: the page is for the founders.
  */
 
 const label = "uppercase tracking-[0.75px] font-mono text-xs font-medium leading-[1.2]";
@@ -43,6 +45,36 @@ export default function ClosingFooter() {
                 </span>
               </li>
             </ol>
+          </div>
+
+          <div className="mt-32 max-[767px]:mt-20 border-t border-[#FFFFFF1a] pt-16 grid grid-cols-[1fr_1.5fr] gap-16 max-[991px]:grid-cols-1 max-[991px]:gap-8">
+            <div className={`${label} text-[#FFFFFF99] pt-2`}>Tot slot</div>
+            <div>
+              <p className="m-0 text-[clamp(1.6rem,1rem+2vw,2.6rem)] leading-[1.2] font-bold tracking-[-0.5px] max-w-[24ch]">
+                Als ik in dertien weken één ding voor elkaar krijg:{" "}
+                <span className="accent">elke maandag weten welke niche won, met bewijs.</span>
+              </p>
+              <p className="m-0 mt-8 text-lg">
+                <span className="font-bold">Joris van Huët</span>
+                <span className="text-[#FFFFFF99]"> · 23 september 2026</span>
+              </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link
+                  href="/strategie/"
+                  className="inline-flex items-center uppercase no-underline font-mono text-[13px] font-medium tracking-[1px] px-[30px] py-[18px] bg-[#FCF2D3] text-black hover:opacity-80 transition-opacity"
+                  style={{ clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%)" }}
+                >
+                  Lees de strategie
+                </Link>
+                <Link
+                  href="/audit/"
+                  className="inline-flex items-center uppercase no-underline font-mono text-[13px] font-medium tracking-[1px] px-[29px] py-[17px] text-white border border-[#FFFFFF29] hover:border-white transition-colors"
+                  style={{ clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%)" }}
+                >
+                  De audience-audit
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -23,39 +23,39 @@ interface Claim {
   customer: string;
 }
 
-// Three of the four texts in the 27 active Dutch ads read word for word
-// (Meta Ad Library, 22–23 Sep 2026). Each stack repeats one text across
-// ads, because that is what the library shows: "4 ads use this creative
-// and text."
+// The four unique texts in the 27 active Dutch ads read word for word
+// (Meta Ad Library, 22–23 Sep 2026). Each stack repeats a text across
+// ads, as the library shows ("4 ads use this creative and text"). The
+// last card to arrive is the outdoor ad: the one niche ad, five days old.
 const STACKS: { id: string; claims: Claim[] }[] = [
   {
     id: "tekst-1",
     claims: [
-      { index: "01", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Advertentie A" },
-      { index: "02", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Advertentie B" },
-      { index: "03", channel: "“Tired of belts that feel like an afterthought?”", value: "loopt sinds 3 sep 2025", customer: "Advertentie C" },
+      { index: "01", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Tekst 1" },
+      { index: "02", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Tekst 1" },
+      { index: "03", channel: "“Tired of belts that feel like an afterthought?”", value: "loopt sinds 3 sep 2025", customer: "Tekst 1" },
     ],
   },
   {
     id: "tekst-2",
     claims: [
-      { index: "01", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Advertentie D" },
-      { index: "02", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Advertentie E" },
-      { index: "03", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "loopt sinds 5 sep 2025", customer: "Advertentie F" },
+      { index: "01", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Tekst 2" },
+      { index: "02", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Tekst 2" },
+      { index: "03", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "loopt sinds 5 sep 2025", customer: "Tekst 2" },
     ],
   },
   {
-    id: "headline",
+    id: "tekst-3-4",
     claims: [
-      { index: "01", channel: "“🔥New Deal Just Dropped. Save BIG today.”", value: "headline", customer: "Advertentie G" },
-      { index: "02", channel: "“🔥New Deal Just Dropped. Save BIG today.”", value: "headline", customer: "Advertentie H" },
-      { index: "03", channel: "“🔥New Deal Just Dropped. Save BIG today.”", value: "onder vrijwel alles", customer: "Advertentie I" },
+      { index: "01", channel: "“Experience the perfect fit with Buckley Belt's micro-adjustable design…”", value: "loopt sinds 4 nov 2025", customer: "Tekst 3" },
+      { index: "02", channel: "“Experience the perfect fit with Buckley Belt's micro-adjustable design…”", value: "loopt sinds 4 nov 2025", customer: "Tekst 3" },
+      { index: "03", channel: "“The no-hole Buckley belt men already wear every day, now in a rugged outdoor build”", value: "18 sep 2026 · de enige niche-advertentie", customer: "Tekst 4 · vakman en buitenmens" },
     ],
   },
 ];
 
-const LINE1 = ["27", "advertenties", "gelezen."];
-const LINE2 = ["Vier", "unieke", "teksten."];
+const LINE1 = ["27", "advertenties."];
+const LINE2 = ["Vier", "teksten,", "één", "niche."];
 
 /** Desktop placement of the three stacks around the centered headline. */
 const STACK_POS = [
@@ -66,7 +66,7 @@ const STACK_POS = [
 
 function ClaimCard({ claim }: { claim: Claim }) {
   return (
-    <article className="cs-card">
+    <article className={`cs-card${claim.customer.startsWith("Tekst 4") ? " cs-niche" : ""}`}>
       <span
         className="font-mono"
         style={{ fontSize: "0.7rem", letterSpacing: "0.06em", color: ACCENT_AMBER }}
@@ -200,6 +200,10 @@ export default function ClaimsStage() {
           transform-origin: top center;
           will-change: transform;
         }
+        .cs-niche {
+          border-color: #FCF2D3;
+          background: linear-gradient(160deg, #2a261c, #161616);
+        }
         .cs-static .cs-card {
           position: static;
           will-change: auto;
@@ -209,7 +213,7 @@ export default function ClaimsStage() {
         ref={rootRef}
         className={`relative font-sans ${isStatic ? "cs-static" : ""}`}
         style={{ backgroundColor: BG, color: FG }}
-        aria-label="27 advertenties gelezen, vier unieke teksten"
+        aria-label="27 advertenties, vier teksten, één niche"
       >
         {isStatic ? (
           /* Reduced-motion / narrow: plain stacked lists, per the gem. */
@@ -230,7 +234,7 @@ export default function ClaimsStage() {
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
               {STACKS.map((s) => (
                 <div key={s.id} className="flex flex-col gap-3">
-                  {s.claims.map((c) => (
+                  {s.claims.slice(-1).map((c) => (
                     <ClaimCard key={c.index} claim={c} />
                   ))}
                 </div>
@@ -238,7 +242,7 @@ export default function ClaimsStage() {
             </div>
           </div>
         ) : (
-          <div ref={trackRef} className="relative" style={{ height: "220vh" }}>
+          <div ref={trackRef} className="relative" style={{ height: "150vh" }}>
             <div className="sticky top-0 h-screen overflow-hidden">
               {/* Centered claim, per the Kelvin stage reference. */}
               <div className="absolute inset-0 flex items-center justify-center px-6">
@@ -304,7 +308,7 @@ export default function ClaimsStage() {
                         ref={(el) => {
                           if (el) stackRefs.current[si][ci] = el;
                         }}
-                        className="cs-card"
+                        className={`cs-card${c.customer.startsWith("Tekst 4") ? " cs-niche" : ""}`}
                       >
                         <span
                           className="font-mono"
