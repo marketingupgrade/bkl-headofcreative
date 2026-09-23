@@ -59,7 +59,7 @@ Gekozen zijn merken die hetzelfde product verkopen, een verstelbare riem zonder 
 
 | Merk | Thuis / markten | Actieve ads* | Taal in ads | Instapprijs (site) | Belofte na aankoop | Bewijs dat ze claimen |
 |---|---|---|---|---|---|---|
-| **Buckley** (referentie) | NL, 16 landen in EU + VK | ~470 | 100% Engels | €39,95 (van €79,95) | 100 dagen retour, geen garantie | Site: 1.000.000+ klanten. Ads: 500.000+. 7.951 reviews, platform niet vermeld |
+| **Buckley** (referentie) | NL, 16 landen in EU + VK | ~470 | 100% Engels | €39,95 (van €79,95) | 100 dagen retour, geen garantie | Site: 1.000.000+ klanten. Ads: 500.000+. Site toont 7.951 reviews zonder platform; Trustpilot 4,7 over 7.994 |
 | **Nordform** | DK; .dk/.de/.se/.com | ~200 | EN 102 · DA 51 · DE 24 · SV 13 | €69,52 (van €79); 3 riemen €139,92 | 100 dagen retour + levenslange garantie | Trustpilot 4,8, 10.600+ reviews; 100.000+ klanten |
 | **Anson Belt & Buckle** | VS; verzendt wereldwijd | ~32 | Engels | vanaf $49,99 | Levenslange garantie (alleen VS) | 300.000+ mannen, 42.000+ reviews (ads) |
 | **SlideBelts** | VS | ~22 | Engels | $29–39 | 1 jaar garantie, 45 dagen retour | 400.000 orders én "500k+ shipped" |
@@ -240,7 +240,7 @@ Alle ads hieronder targeten *gender: All*.
 | **Volume en testsnelheid:** ~470 actieve ads, tegenover ~200 voor Nordform en minder dan 50 voor elk ander merk. Nieuwe nichecopy haalt binnen weken de top 10 (outdoor #4 en #9). | **100% Engels** in 16 markten, terwijl Nordform, Beltisse, Biscomi en Buckle UP lokaal adverteren. |
 | **Breedste nichebereik in de visuals:** outdoor, vegan, plus-size en cadeau in één merk. | **Copy-concentratie:** 39% van de actieve ads draait op één tekst. |
 | **Toegankelijke instapprijs** (€39,95) en een ruime retourtermijn (100 dagen). | **Geen vertrouwensblok:** geen maker, pers, community of garantie in de ads. |
-| **Productlijn** die niches kan dragen: outdoor-trio, vegan, portemonnee-combo. | **Bewijs dat botst:** 500.000+ in ads tegenover 1.000.000+ op de site; 7.951 reviews zonder platform. |
+| **Productlijn** die niches kan dragen: outdoor-trio, vegan, portemonnee-combo. | **Bewijs dat botst:** 500.000+ in ads tegenover 1.000.000+ op de site; site toont 7.951 reviews zonder platform, Trustpilot 4,7 over 7.994. |
 | | **Retourbeleid botst met het product:** je moet de riem afknippen, maar "afgeknipte" riemen "kunnen worden geweigerd". |
 | | **Levering 5–7 werkdagen**, tegenover 1–2 dagen bij Nordform en Buckle UP. |
 | | **Alleen voor mannen**, en een kortingsregister (50–63%) dat lijkt op dat van de klonen. |
