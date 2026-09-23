@@ -113,9 +113,9 @@ export default function EngineFlow() {
         <span style={{ color: "#FFFFFF8c" }}>De basis staat.</span> Wat ontbreekt is een engine die onthoudt.
       </h2>
       <p className="m-0 mt-4" style={{ fontSize: "18px", lineHeight: 1.5, color: "#FFFFFF99", maxWidth: "46rem" }}>
-        Twintig concepten per week is veel, en de outdoor-advertentie van 18 september laat zien dat iemand bij jullie al in
-        niches denkt. Het probleem zit niet in de mensen, maar in de vorm: alles loopt door één hoofd, en wat werkte wordt
-        nergens vastgelegd.
+        Twintig concepten per week is veel, en de outdoor-lijn die eind augustus live ging stond binnen weken op #4 en #9. Het
+        probleem zit niet in de mensen, maar in de vorm: alles loopt door één hoofd, de niche stopt na drie seconden, en wat werkte
+        wordt nergens vastgelegd.
       </p>
 
       <div className="mt-12 max-[767px]:mt-10 grid gap-10 max-[767px]:gap-8">

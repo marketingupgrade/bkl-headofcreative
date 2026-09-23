@@ -17,6 +17,8 @@ const QUESTIONS = [
   "Wat is de harde laatste besteldatum voor levering vóór 5 en vóór 25 december, per markt?",
   "Wat leveren de affiliate-codes van de makers op in orders en omzet?",
   "Welk aandeel van de omzet is damesriemen, en waarom staat er geen creative op?",
+  "Is het lage bereik in Duitsland, Frankrijk, Spanje, Italië en Polen zo gestuurd?",
+  "Welk klantgetal klopt: 500.000+ in de ads of 1.000.000+ op de site?",
 ];
 
 export default function ClosingFooter() {
@@ -72,6 +74,13 @@ export default function ClosingFooter() {
                   style={{ clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%)" }}
                 >
                   De audience-audit
+                </Link>
+                <Link
+                  href="/ad-library/"
+                  className="inline-flex items-center uppercase no-underline font-mono text-[13px] font-medium tracking-[1px] px-[29px] py-[17px] text-white border border-[#FFFFFF29] hover:border-white transition-colors"
+                  style={{ clipPath: "polygon(0 0, 100% 0, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%)" }}
+                >
+                  De Ad Library-analyse
                 </Link>
               </div>
             </div>

@@ -3,9 +3,9 @@
 /**
  * @component TextMaskZoomHero
  * @description Hero · BYQ gem "Text Mask Zoom" (text-mask-zoom-01), motion verbatim.
- *   "Eén stem voor iedereen." is knocked out of a dark plate over the
+ *   "De niche stopt na drie seconden." is knocked out of a dark plate over the
  *   ratchet-field image; scrolling dives through the counter of the "o" in
- *   "voor" until the field fills the viewport. Under 768px a static
+ *   "stopt" until the field fills the viewport. Under 768px a static
  *   background-clip hero renders instead (LCP).
  */
 
@@ -21,8 +21,8 @@ const PHOTO_MOBILE_URL = "/images/hero-field-mobile.jpg";
 const BG_COLOR = "#0E0E0E";
 const FG_COLOR = "#FFFFFF";
 const ACCENT = "#FCF2D3";
-const WORD = "Eén stem voor iedereen.";
-const APERTURE = 10; // index of the "o" in "voor"
+const WORD = "De niche stopt na drie seconden.";
+const APERTURE = 11; // index of the "o" in "stopt"
 const MASK_ID = "text-mask-zoom-cut";
 
 export default function TextMaskZoomHero() {

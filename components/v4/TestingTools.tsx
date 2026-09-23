@@ -22,7 +22,7 @@ const STEPS = [
 ];
 
 const TOOLS = [
-  "Meta Ad Library",
+  "Meta Ad Library API · sorteringsmeter en marktradar",
   "Reacties onder de eigen advertenties",
   "7.994 Trustpilot-reviews, helpdesk, retourredenen",
   "Shopify-data per niche",
@@ -115,6 +115,23 @@ export default function TestingTools() {
                 keer bevestigd, één tegenvoorbeeld bij de outdoor-niche.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5 mt-16">
+        <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99] mb-4">De uitslag is tweeledig</div>
+        <div className="grid grid-cols-2 max-[767px]:grid-cols-1 gap-3">
+          <div className="rounded-xl p-6 border border-[#FFFFFF1a]">
+            <div className="text-2xl font-bold">Presteerde hij?</div>
+            <p className="m-0 mt-2 text-[16px] leading-relaxed text-[#FFFFFFb3]">Ads Manager: spend, CTR, CVR, AOV. Voor eigen ads blijft dat de bron.</p>
+          </div>
+          <div className="rounded-xl p-6 border" style={{ borderColor: `${ACCENT}66` }}>
+            <div className="text-2xl font-bold">Bereikte hij de niche?</div>
+            <p className="m-0 mt-2 text-[16px] leading-relaxed text-[#FFFFFFb3]">
+              Listener 5, de Meta Ad Library API: bereik per gender, leeftijd en land in EU/UK, per creative, ook van concurrenten. Een
+              sorteringsmeter en een marktradar, geen performancebron. Nachtelijke pulls, geen scraping.
+            </p>
           </div>
         </div>
       </div>

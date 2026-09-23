@@ -26,7 +26,7 @@ const STOPS = [
   { label: "Dossier", sub: "vrijdag · één pagina", x: "31.70%", y: "47.77%", up: true, end: false, align: "center" as const },
   { label: "Creative", sub: "ma angles · wo–do maken", x: "53.30%", y: "62.74%", up: false, end: false, align: "center" as const },
   { label: "Live", sub: "vrijdag · launchbatch", x: "74.70%", y: "59.01%", up: true, end: false, align: "center" as const },
-  { label: "Uitslag", sub: "maandag · promote, iterate, kill", x: "92.71%", y: "17.02%", up: false, end: true, align: "end" as const },
+  { label: "Uitslag", sub: "ma · presteerde én bereikte hij?", x: "92.71%", y: "17.02%", up: false, end: true, align: "end" as const },
 ];
 
 const PATH_D = "M 60 350 C 140 300 240 210 350 210 S 470 330 560 330 S 780 160 840 70";

@@ -23,39 +23,40 @@ interface Claim {
   customer: string;
 }
 
-// The four unique texts in the 27 active Dutch ads read word for word
-// (Meta Ad Library, 22–23 Sep 2026). Each stack repeats a text across
-// ads, as the library shows ("4 ads use this creative and text"). The
-// last card to arrive is the outdoor ad: the one niche ad, five days old.
+// Census of the 444 active ads (Meta Ad Library, 23 Sep 2026). "Rang" is
+// the position in Meta's sort on total impressions: budget and exposure,
+// not proof of performance. Stack 1 is the one text under 39% of the ads;
+// stack 2 the other generic texts; stack 3 ends on the outdoor niche copy,
+// live since late August and already at #4 and #9.
 const STACKS: { id: string; claims: Claim[] }[] = [
   {
-    id: "tekst-1",
+    id: "tired",
     claims: [
-      { index: "01", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Tekst 1" },
-      { index: "02", channel: "“Tired of belts that feel like an afterthought?”", value: "3-pack · 63% korting", customer: "Tekst 1" },
-      { index: "03", channel: "“Tired of belts that feel like an afterthought?”", value: "loopt sinds 3 sep 2025", customer: "Tekst 1" },
+      { index: "01", channel: "“Tired of belts that feel like an afterthought?”", value: "live sinds sep 2025", customer: "Tekst 1" },
+      { index: "02", channel: "“Tired of belts that feel like an afterthought?”", value: "45× in de top-100 · rang #1", customer: "Tekst 1" },
+      { index: "03", channel: "“Tired of belts that feel like an afterthought?”", value: "173 actieve ads · 39%", customer: "Tekst 1" },
     ],
   },
   {
-    id: "tekst-2",
+    id: "generiek",
     claims: [
-      { index: "01", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Tekst 2" },
-      { index: "02", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "50% korting", customer: "Tekst 2" },
-      { index: "03", channel: "“We designed the Buckley Belt to do more than just hold things up…”", value: "loopt sinds 5 sep 2025", customer: "Tekst 2" },
+      { index: "02", channel: "“Still wearing the same beat-up belt”", value: "69 ads · rang #49", customer: "Tekst 2" },
+      { index: "03", channel: "“We designed the Buckley Belt…”", value: "54 ads · rang #7", customer: "Tekst 3" },
+      { index: "04", channel: "“A real belt should click into place… hear the click”", value: "41 ads · rang #40", customer: "Tekst 4" },
     ],
   },
   {
-    id: "tekst-3-4",
+    id: "niche",
     claims: [
-      { index: "01", channel: "“Experience the perfect fit with Buckley Belt's micro-adjustable design…”", value: "loopt sinds 4 nov 2025", customer: "Tekst 3" },
-      { index: "02", channel: "“Experience the perfect fit with Buckley Belt's micro-adjustable design…”", value: "loopt sinds 4 nov 2025", customer: "Tekst 3" },
-      { index: "03", channel: "“The no-hole Buckley belt men already wear every day, now in a rugged outdoor build”", value: "18 sep 2026 · de enige niche-advertentie", customer: "Tekst 4 · vakman en buitenmens" },
+      { index: "07", channel: "“Your belt shouldn't tap out… Your waist moves throughout the day”", value: "14 ads · rang #130", customer: "Tekst 7" },
+      { index: "06", channel: "“Same Buckley fit… Tougher build 🌧️🎒🔒👖”", value: "live sinds 30 aug 2026 · rang #9", customer: "Niche · outdoor 2" },
+      { index: "05", channel: "“The no-hole Buckley belt… now in a rugged outdoor build”", value: "live sinds 20 aug 2026 · rang #4", customer: "Niche · outdoor 1" },
     ],
   },
 ];
 
-const LINE1 = ["27", "advertenties."];
-const LINE2 = ["Vier", "teksten,", "één", "niche."];
+const LINE1 = ["444", "ads."];
+const LINE2 = ["39%", "op", "één", "tekst."];
 
 /** Desktop placement of the three stacks around the centered headline. */
 const STACK_POS = [
@@ -66,7 +67,7 @@ const STACK_POS = [
 
 function ClaimCard({ claim }: { claim: Claim }) {
   return (
-    <article className={`cs-card${claim.customer.startsWith("Tekst 4") ? " cs-niche" : ""}`}>
+    <article className={`cs-card${claim.customer.startsWith("Niche") ? " cs-niche" : ""}`}>
       <span
         className="font-mono"
         style={{ fontSize: "0.7rem", letterSpacing: "0.06em", color: ACCENT_AMBER }}
@@ -213,7 +214,7 @@ export default function ClaimsStage() {
         ref={rootRef}
         className={`relative font-sans ${isStatic ? "cs-static" : ""}`}
         style={{ backgroundColor: BG, color: FG }}
-        aria-label="27 advertenties, vier teksten, één niche"
+        aria-label="444 actieve ads, 39% op één tekst"
       >
         {isStatic ? (
           /* Reduced-motion / narrow: plain stacked lists, per the gem. */
@@ -245,7 +246,7 @@ export default function ClaimsStage() {
           <div ref={trackRef} className="relative" style={{ height: "150vh" }}>
             <div className="sticky top-0 h-screen overflow-hidden">
               {/* Centered claim, per the Kelvin stage reference. */}
-              <div className="absolute inset-0 flex items-center justify-center px-6">
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 px-6">
                 <h2
                   className="m-0 font-sans text-center"
                   style={{
@@ -296,6 +297,9 @@ export default function ClaimsStage() {
                     ))}
                   </span>
                 </h2>
+                <p className="m-0 text-center font-mono uppercase max-w-[34rem]" style={{ fontSize: "11px", letterSpacing: "0.75px", lineHeight: 1.6, color: "#FFFFFF80" }}>
+                  Meta Ad Library · alle 444 teksten Engelstalig · ~13 unieke teksten · rang = sortering op vertoningen, geen performance
+                </p>
               </div>
 
               {/* Three claim stacks, placed like the reference's floating stat cards. */}
@@ -308,7 +312,7 @@ export default function ClaimsStage() {
                         ref={(el) => {
                           if (el) stackRefs.current[si][ci] = el;
                         }}
-                        className={`cs-card${c.customer.startsWith("Tekst 4") ? " cs-niche" : ""}`}
+                        className={`cs-card${c.customer.startsWith("Niche") ? " cs-niche" : ""}`}
                       >
                         <span
                           className="font-mono"

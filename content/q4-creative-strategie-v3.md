@@ -85,6 +85,8 @@ Dus: **creative wordt in Q4 afgerekend op orders én op orderwaarde, en zo moet 
 
 ## 3. Wat ik zie als ik naar het huidige werk kijk
 
+> **Bijgewerkt na de Meta Ad Library-census (23 september).** De "vier unieke teksten" hieronder gelden alleen voor de 27 ads in de Nederlandse keywordweergave. Over alle 444 actieve ads zijn het er ongeveer dertien, met 39% op één tekst. En Buckley doet al nichewerk in de visuele laag: plus-size, vegan, cadeau, outdoor. Zie [de Ad Library-analyse](/ad-library/).
+
 Ik heb de Meta Ad Library doorgespit voor Nederland, alleen actieve advertenties. Ongeveer 120 resultaten. Dat klinkt als een gezonde motor.
 
 Ik heb de eerste 27 resultaten woord voor woord gelezen. Daarin zitten **vier unieke teksten.**
@@ -294,7 +296,7 @@ Vier plekken, en ze zijn geen van alle fataal, maar wie ze niet benoemt loopt er
 
 ## 7. Twaalf niche-hypotheses voor Buckley
 
-> **Bijgewerkt na de audience-audit (23 september).** De YouTube-audit voegt *vrouwen* toe als tier 1-kandidaat en *vegan en bewust* en *de tinkerer* als nieuwe niches, en herschrijft hypothese 2 van "de man die afvalt" naar **"de veranderende maat"**: schommeling in plaats van afvallen. De tabel hieronder is de stand van vóór die audit. Zie [de audit, §6](/audit/#6-wat-dit-doet-met-de-nichelijst-uit-de-strategie).
+> **Bijgewerkt na de audience-audit (23 september).** De YouTube-audit voegt *vrouwen* toe als tier 1-kandidaat en *vegan en bewust* en *de tinkerer* als nieuwe niches, en herschrijft hypothese 2 van "de man die afvalt" naar **"de veranderende maat"**: schommeling in plaats van afvallen. De Ad Library-census laat daarnaast zien dat cadeau al als seizoenscampagne draaide (sep 2025 – jan 2026), en dat outdoor, plus-size, vegan, de veranderende taille en het klikgeluid al in het account zitten. De tabel hieronder is de stand van vóór beide. Zie [de audit, §6](/audit/#6-wat-dit-doet-met-de-nichelijst-uit-de-strategie) en [de Ad Library-analyse](/ad-library/).
 
 **Dit zijn hypotheses, geen bevindingen.** Ik heb niet geluisterd, ik heb geredeneerd vanuit het product, de reviews en de advertenties. Precies dit lijstje is wat een week echte listening moet bevestigen, omgooien of vervangen. Als er in week 2 drie op de lijst staan die ik hier niet noem, heeft de luisterfunctie zijn eerste week terugverdiend.
 

@@ -34,7 +34,7 @@ const TIERS = [
       "Eigen aanbod of bundel",
       "Eigen P&L",
     ],
-    note: "Q4-kandidaten: de cadeaukoper (tier 1 vanwege de kalender, niet vanwege het bewijs), vakman en buitenmens. De audit voegt vrouwen toe: product bestaat, vraag is de luidste, creative is nul.",
+    note: "Q4-kandidaten: de cadeaukoper (tier 1 omdat Q4 hem urgent maakt; het merk draaide hem zelf al een seizoen, performancedata ontbreekt), vakman en buitenmens. De audit voegt vrouwen toe: product bestaat, vraag is de luidste, creative is nul.",
   },
   {
     label: "Tier 2 · Eigen boodschap",

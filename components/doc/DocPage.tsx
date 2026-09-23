@@ -18,6 +18,7 @@ export default function DocPage({ file, kicker }: { file: string; kicker: string
           <div className="flex gap-5 font-mono text-xs uppercase tracking-[0.75px]">
             <Link href="/strategie/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Strategie</Link>
             <Link href="/audit/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Audit</Link>
+            <Link href="/ad-library/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Ad Library</Link>
           </div>
         </nav>
       </header>
