@@ -7,7 +7,7 @@ Explainer-site bij de opdracht Head of Creative (Cintura Group): de Q4-strategie
 | Route | Wat |
 |---|---|
 | `/` | Het scroll-verhaal in 14 beats (zie de volgorde in `app/page.tsx`) |
-| `/strategie/` | `content/q4-creative-strategie-v3.md`, volledig |
+| `/strategie/` | `content/q4-creative-strategie-v4.md`, volledig |
 | `/audit/` | `content/audience-audit-youtube.md`, volledig |
 
 ## Draaien

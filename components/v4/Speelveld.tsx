@@ -122,7 +122,7 @@ export default function Speelveld() {
 
         {/* Niches already taken */}
         <div className="mt-20">
-          <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99] mb-5">Bijna elke niche uit v3 wordt al bespeeld</div>
+          <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99] mb-5">Bijna elke niche uit de strategie wordt al bespeeld</div>
           <div className="sv-takens grid grid-cols-3 max-[991px]:grid-cols-2 max-[479px]:grid-cols-1 gap-3">
             {TAKEN.map((t) => (
               <div key={t.niche} className="sv-taken rounded-xl border border-[#FFFFFF1a] p-5">
