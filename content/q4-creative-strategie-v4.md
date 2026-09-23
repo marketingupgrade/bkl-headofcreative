@@ -290,7 +290,7 @@ Vier plekken, en ze zijn geen van alle fataal, maar wie ze niet benoemt loopt er
 
 ## 7. Twaalf niche-hypotheses voor Buckley
 
-> **Bijgewerkt na de audience-audit (23 september).** De YouTube-audit voegt *vrouwen* toe als tier 1-kandidaat en *vegan en bewust* en *de tinkerer* als nieuwe niches, en herschrijft hypothese 2 van "de man die afvalt" naar **"de veranderende maat"**: schommeling in plaats van afvallen. De Ad Library-census laat daarnaast zien dat cadeau al als seizoenscampagne draaide (sep 2025 – jan 2026), en dat outdoor, plus-size, vegan, de veranderende taille en het klikgeluid al in het account zitten. De tabel hieronder is de stand van vóór beide. De concurrentieanalyse laat zien dat de meeste niches elders al bespeeld worden (afvallen door Anson, vrouwen in Duitsland door Beltisse, beroepen in het Nederlands door Biscomi). Zie [de audit, §6](/audit/#6-wat-dit-doet-met-de-nichelijst-uit-de-strategie), [de Ad Library-analyse](/ad-library/) en [de concurrentieanalyse](/concurrentie/).
+> **Bijgewerkt na de audience-audit (23 september).** De YouTube-audit voegt *vrouwen* toe als tier 1-kandidaat en *vegan en bewust* en *de tinkerer* als nieuwe niches, en herschrijft hypothese 2 van "de man die afvalt" naar **"de veranderende maat"**: schommeling in plaats van afvallen. De Ad Library-census laat daarnaast zien dat cadeau al als seizoenscampagne draaide (sep 2025 – jan 2026), en dat outdoor, plus-size, vegan, de veranderende taille en het klikgeluid al in het account zitten. De tabel hieronder is mijn oorspronkelijke hypotheselijst, met hypothese 2 al hernoemd. De concurrentieanalyse laat zien dat de meeste niches elders al bespeeld worden (afvallen door Anson, vrouwen in Duitsland door Beltisse, beroepen in het Nederlands door Biscomi). Zie [de audit, §6](/audit/#6-wat-dit-doet-met-de-nichelijst-uit-de-strategie), [de Ad Library-analyse](/ad-library/) en [de concurrentieanalyse](/concurrentie/).
 
 **Dit zijn hypotheses, geen bevindingen.** Ik heb niet geluisterd, ik heb geredeneerd vanuit het product, de reviews en de advertenties. Precies dit lijstje is wat een week echte listening moet bevestigen, omgooien of vervangen. Als er in week 2 drie op de lijst staan die ik hier niet noem, heeft de luisterfunctie zijn eerste week terugverdiend.
 
@@ -299,7 +299,7 @@ Ze staan op volgorde van hoe overtuigd ik ben, en de bovenste vier zijn mijn Tie
 | # | Niche | Triggermoment | Dominante Core Drive | Aanbodfit |
 |---|---|---|---|---|
 | 1 | **De cadeaukoper** (partner, kind, collega) | Sinterklaas, Kerst, verjaardag, "wat geef ik hem" | 5 — Social Influence | 3-pack of riem + wallet, cadeauverpakt |
-| 2 | **De man die afvalt** | Riem zit in het laatste gaatje en er is nog ruimte over | 2 — Development & Accomplishment | Één riem, met de belofte dat hij meebeweegt |
+| 2 | **De veranderende maat** (eerst: de man die afvalt) | Riem zit in het laatste gaatje en er is nog ruimte over | 2 — Development & Accomplishment | Één riem, met de belofte dat hij meebeweegt |
 | 3 | **Vakman en buitenmens** | Riem begeeft het onder een gereedschapsgordel of een rugzak | 8 — Loss & Avoidance | Outdoor-lijn. Loopt sinds eind augustus, rang #4 en #9 |
 | 4 | **EDC en gear** | Zoektocht naar het beste exemplaar van een alledaags voorwerp | 3 — Empowerment & Feedback | Riem + wallet, het mechanisme als onderwerp |
 | 5 | **Nieuwe dresscode** | Eerste kantoorbaan, promotie, van thuiswerken naar kantoor | 4 — Ownership | 3-pack: werk, weekend, net |
@@ -319,13 +319,13 @@ Mijn aanname is dat de maat de grootste angst is bij het kopen van kleding als c
 
 Buckley's productpagina zegt, in hoofdletters: **"ONE SIZE FITS ALL — NO SIZING STRESS."**
 
-Als die aanname klopt, is dat geen productkenmerk maar de cadeau-angst letterlijk weggenomen, en hij staat al op de site. Precies dat moet week 1 in de eigen reviews en tickets bevestigen of omgooien. In de 27 advertenties die ik woord voor woord heb gelezen komt geen enkele cadeau-hoek voor, niet als "cadeau" en niet als "gift".
+Als die aanname klopt, is dat geen productkenmerk maar de cadeau-angst letterlijk weggenomen, en hij staat al op de site. Precies dat moet week 1 in de eigen reviews en tickets bevestigen of omgooien. In de actieve copy komt geen cadeau-hoek voor. Cadeau draaide wel als seizoenscampagne (september 2025 tot januari 2026) en leeft nu alleen in de visual ("THE ULTIMATE GIFT", 41 ads sinds 5 augustus).
 
-Daar komt de Nederlandse kalender bij: **Sinterklaas op zaterdag 5 december**, met de besteldeadline rond 2 december, bijna drie weken vóór Kerst. Een merk dat in Engels-Amerikaanse Q4-kalenders denkt, ziet Black Friday en Kerst en kan de Nederlandse piek daartussenin over het hoofd zien. Of dat hier gebeurt weet ik niet; dat de advertenties in NL Engelstalig zijn, maakt het aannemelijk genoeg om te vragen.
+Daar komt de Nederlandse kalender bij: **Sinterklaas op zaterdag 5 december**, bijna drie weken vóór Kerst. Bij de levertijd van 5–7 werkdagen ligt de laatste veilige besteldatum rond 25–27 november: midden in de Black Friday-week. Een merk dat in Engels-Amerikaanse Q4-kalenders denkt, ziet Black Friday en Kerst en kan de Nederlandse piek daartussenin over het hoofd zien. Of dat hier gebeurt weet ik niet; dat de advertenties in NL Engelstalig zijn, maakt het aannemelijk genoeg om te vragen.
 
 Angles: *"Nooit meer de verkeerde maat"* — de maatangst frontaal. *"Voor de man die alles al heeft"* — het klassieke cadeauprobleem. *"Uitpakken moet ook leuk zijn"* — reviewers noemen de verpakking uit zichzelf: *"gorgeous presentation boxes."* En *"Op tijd binnen"*, maar alleen als ops die datum hard maakt; zie §16.
 
-### 7.2 De man die afvalt, en waarom ik hier het meest nieuwsgierig naar ben
+### 7.2 De veranderende maat (eerst: de man die afvalt), en waarom ik hier het meest nieuwsgierig naar ben
 
 Dit is de niche waarvan ik het minst zeker ben en waar het meeste in kan zitten.
 
@@ -355,7 +355,7 @@ In dit document heeft het een tweede functie: **het is de as waarop niches van e
 
 ### 8.1 Het account langs de acht drives
 
-Op basis van de 27 advertenties die ik heb gelezen, plus de product- en bundelpagina's.
+Op basis van de census van 444 actieve advertenties en een steekproef van ~90 inactieve kaarten, plus de product- en bundelpagina's.
 
 | Core Drive | Gebruikt Buckley dit? | Bewijs |
 |---|---|---|
@@ -363,7 +363,7 @@ Op basis van de 27 advertenties die ik heb gelezen, plus de product- en bundelpa
 | **2. Development & Accomplishment** | Nee | Geen vooruitgang, geen beheersing. Zie §7.2 voor waar dit wél kan |
 | **3. Empowerment of Creativity & Feedback** | Draait al (rang #40), maar zonder dossier of eigen pre-lander: doortrekken, niet introduceren | Het mechanisme levert de feedbackhelft ruimhartig. Zie §8.3 |
 | **4. Ownership & Possession** | Deels | De 3-pack raakt eraan, maar als korting verpakt, niet als bezit |
-| **5. Social Influence & Relatedness** | Alleen als social proof | "TRUSTED BY 1,000,000+ MEN". Eenrichtingsverkeer: geen delen, geen geven |
+| **5. Social Influence & Relatedness** | Als social proof; geven alleen in de visual | "Trusted by 500,000+ men" in de ads, 1.000.000+ op de site. Cadeau draaide als seizoenscampagne en leeft nu alleen in de visual; in de actieve copy geen delen en geen geven |
 | **6. Scarcity & Impatience** | Zwaar, en kapot | Zie §8.2 |
 | **7. Unpredictability & Curiosity** | Nauwelijks | "Een riem zonder gaatjes" is een gratis nieuwsgierigheidsgat, en het wordt in dezelfde zin dichtgemaakt |
 | **8. Loss & Avoidance** | Ja, en het werkt | "No more cracked leather, stretched holes, or awkward fits" |
@@ -378,11 +378,11 @@ Core Drive 6 werkt omdat iets straks weg is. Buckley staat het hele jaar op 50 t
 
 Dat is dezelfde diagnose als §4.3, maar Octalysis legt uit waarom hij zoveel pijn doet. Buckley draagt de **kosten** van Black Hat — het went, het slijt, het trekt kortingsjagers aan met een lagere herhaalkans, wat mijn ervaring is en geen cijfer dat ik hier kan onderbouwen — zonder de **opbrengst**, want de urgentie is eruit gesleten. En in de enige week van het jaar met echte schaarste heeft de drive niets extra's te geven.
 
-Herstel is dus geen prijsvraagstuk maar een creative-vraagstuk: schaarste die niet over geld gaat. Een leverdeadline is echt schaars. Een beperkte kleur is echt schaars. Een cadeaudoos die op 2 december niet meer op tijd komt, is echt schaars — en dat is precies de schaarste die in §7.1 al op de kalender stond.
+Herstel is dus geen prijsvraagstuk maar een creative-vraagstuk: schaarste die niet over geld gaat. Een leverdeadline is echt schaars. Een beperkte kleur is echt schaars. Een cadeaudoos die na 25–27 november niet meer op tijd komt, is echt schaars — en dat is precies de schaarste die in §7.1 al op de kalender stond.
 
 ### 8.3 De drives die er gratis bij liggen
 
-**Core Drive 5 — Social Influence & Relatedness.** Iets voor een ander kopen is geen transactie maar een relatiehandeling. Buckley gebruikt CD5 nu uitsluitend als eenrichtings-social-proof, de zwakste vorm. De sterkste vorm is geven, en die staat nergens aan. Drie van de twaalf niches in §7 draaien erop.
+**Core Drive 5 — Social Influence & Relatedness.** Iets voor een ander kopen is geen transactie maar een relatiehandeling. Buckley gebruikt CD5 nu uitsluitend als eenrichtings-social-proof, de zwakste vorm. De sterkste vorm is geven, en die staat in de actieve copy nergens aan: cadeau draaide als seizoenscampagne en leeft nu alleen in de visual. Drie van de twaalf niches in §7 draaien erop.
 
 **Core Drive 3 — Empowerment of Creativity & Feedback.** Chou's CD3 heeft twee helften: zelf iets uitproberen en combineren, en er direct antwoord op krijgen. Het ratchet-mechanisme levert vooral de tweede helft, en het levert hem ruimhartig: meer dan dertig standen, klik, precies goed. Dat is waarschijnlijk waarom "oddly satisfying"-video's werken. Het klikgeluid draait al ("hear the click", 41 ads, rang #40), maar zonder dossier of eigen pre-lander: doortrekken, niet introduceren. Begin bij EDC uit §7.3, want dat publiek wil het zien.
 
@@ -453,7 +453,7 @@ Hoffmans stelling is dat je bij hoge snelheid niet alle branden kunt blussen, en
 |---|---|
 | Geen niche-laag, één boodschap voor iedereen | **Blussen.** Dit is de brand die de rest voedt |
 | Creatieve leeftijd en gebrek aan variantie | **Blussen.** Volgt grotendeels uit de vorige |
-| Geen cadeau-creative met vijf kalenderdata voor de deur | **Blussen.** De kans verdwijnt op 25 december |
+| Geen cadeau-copy, alleen een visual, met vijf kalenderdata voor de deur | **Blussen.** De kans verdwijnt op 25 december |
 | Engelse advertenties op de Nederlandse markt | **Half blussen.** Alleen Nederlandse versies van bewezen winnaars; dat zijn iteraties |
 | Geen pre-landers | **Half blussen.** Twee, niet tien. Zie §11 |
 | Eén strategist als bottleneck | **Laten smeulen.** Verzachten met artefacten en de luisterfunctie, structureel oplossen in Q1 |
@@ -738,7 +738,7 @@ Als de $25M over meerdere merken loopt, is de vraag niet "hoe maken we drie crea
 
 Als een problem-first opening bij koud verkeer wint van een product-first opening, dan is dat een structureel leerpunt: het gaat over hoe aandacht werkt, niet over riemen. Dat "uitgelubberde gaatjes" een goede hook is, geldt alleen voor riemen. Daarom staat er naast elke regel in het Learning Log een label: **STRUCTUREEL** of **MERK**.
 
-**En er is een derde categorie die alleen in dit model bestaat: de draagbare helft van het dossier — naam, triggermoment en dominante Core Drive.** De cadeaukoper is geen riemenfenomeen. De man die afvalt, de vakman, de EDC-verzamelaar, de man met een nieuwe dresscode — dat zijn groepen mensen met triggermomenten die bij meerdere producten passen. Een gevalideerd dossier over de cadeaukoper die bang is voor de verkeerde maat, is bruikbaar voor elk merk in het portfolio dat iets met maatvoering verkoopt. **De dossierbibliotheek is het enige bezit in dit hele voorstel dat in waarde stijgt naarmate er merken bijkomen**, en het is precies wat §9.1 zoekt: een voordeel dat niet in gehuurde distributie zit.
+**En er is een derde categorie die alleen in dit model bestaat: de draagbare helft van het dossier — naam, triggermoment en dominante Core Drive.** De cadeaukoper is geen riemenfenomeen. De veranderende maat, de vakman, de EDC-verzamelaar, de man met een nieuwe dresscode — dat zijn groepen mensen met triggermomenten die bij meerdere producten passen. Een gevalideerd dossier over de cadeaukoper die bang is voor de verkeerde maat, is bruikbaar voor elk merk in het portfolio dat iets met maatvoering verkoopt. **De dossierbibliotheek is het enige bezit in dit hele voorstel dat in waarde stijgt naarmate er merken bijkomen**, en het is precies wat §9.1 zoekt: een voordeel dat niet in gehuurde distributie zit.
 
 Dat is wat een Head of Creative oplevert bovenop drie losse strategists, en het is het enige onderdeel waarvan het rendement volledig ná Q4 valt. Samen met het ontkoppelen van de strategist is het ook het eerste dat sneuvelt als het druk wordt, en daarom noem ik het expliciet.
 
@@ -767,13 +767,13 @@ Q4 loopt van 1 oktober tot en met 31 december. 92 dagen, dertien weken plus een 
 | 6 | 5–11 nov | Singles Day als generale repetitie: één dag echte piek met echte data. Pre-lander 1 en 2 live. Tier 1-niches aangewezen op basis van de eerste twee weken uitslagen, met de kanttekening dat dat dun is |
 | 7 | 12–18 nov | **BFCM-bibliotheek dichtzetten.** Niche-bewezen winnaars in BFCM-verpakking, per niche en per markt. Vanaf vrijdag 13 november geen nieuwe concepten |
 | 8 | 19–25 nov | Alleen uitvoeren. Volume, varianten van bewezen werk. Editors op standby voor aanpassingen binnen een dag |
-| 9 | 26 nov–2 dec | **Black Friday 27 nov, Cyber Monday 30 nov.** Geen nieuwe concepten, testbudget naar nul, nichelus op pauze. Dagelijkse iteratie op wat leeft |
+| 9 | 26 nov–2 dec | **Black Friday 27 nov, Cyber Monday 30 nov.** Bij 5–7 werkdagen levertijd valt de laatste veilige besteldatum voor Sinterklaas (rond 25–27 november) in deze week. Geen nieuwe concepten, testbudget naar nul, nichelus op pauze. Dagelijkse iteratie op wat leeft |
 
 ### December — de piek die iedereen vergeet, en de aftocht
 
 | Week | Datum | Wat er gebeurt |
 |---|---|---|
-| 10 | 3–9 dec | **Sinterklaas 5 dec**, besteldeadline rond 2 december. Cadeaulijn op volle kracht in NL en BE met harde leverbelofte. Geen nieuw spoor deze week |
+| 10 | 3–9 dec | **Sinterklaas 5 dec.** De laatste veilige besteldatum lag al in week 9. Cadeaulijn op volle kracht in NL en BE met harde leverbelofte. Geen nieuw spoor deze week |
 | 11 | 10–16 dec | Kerstcadeau-piek. "Op tijd binnen" wordt de dragende angle, mits ops hem waarmaakt. Nichelus weer aan |
 | 12 | 17–23 dec | Laatste besteldatum als urgentie. Daarna omschakelen naar de digitale cadeaubon of naar de boodschap dat levering vóór kerst niet meer gegarandeerd is |
 | 13 | 24–31 dec | Kopen-voor-jezelf en nieuwjaarsangles. Retro, Learning Log opschonen, dossierbibliotheek overdraagbaar maken, Q1-briefs klaarzetten nu het nog vers is |
@@ -881,7 +881,7 @@ Niet als afsluiter, maar omdat de antwoorden dit stuk zouden aanscherpen of omgo
 
 **Wat de drie brillen toevoegen.** Octalysis laat zien dat dit account vrijwel volledig op schaarste en verliesvermijding draait, en dat de schaarste zelf kapot is omdat de korting nooit afloopt — en het geeft de as waarop niches van elkaar verschillen. Blitzscaling laat zien dat de engine een Family is die naar Tribe moet, dat ops de rem is en niet creative, en dat een bibliotheek van gevalideerde niche-dossiers het dichtstbijzijnde is dat dit bedrijf bij een moat komt. The ONE Thing zet de volgorde vast.
 
-**De drie grootste kansen buiten het proces om:** de cadeaukoper, met een product waarvan de belangrijkste cadeau-angst al in hoofdletters op de productpagina staat en een Nederlandse piek op 5 december. De man die afvalt, voor wie micro-verstelbaarheid geen comfort is maar een ander product. En de 3-pack als garderobe-argument in plaats van als aanbieding, omdat €5 AOV bij dit volume ongeveer 35.000 orders minder nodig maakt.
+**De drie grootste kansen buiten het proces om:** de cadeaukoper, met een product waarvan de belangrijkste cadeau-angst al in hoofdletters op de productpagina staat en een Nederlandse piek op 5 december. De veranderende maat, voor wie micro-verstelbaarheid geen comfort is maar een ander product. En de 3-pack als garderobe-argument in plaats van als aanbieding, omdat €5 AOV bij dit volume ongeveer 35.000 orders minder nodig maakt.
 
 **Wat ik bewust laat liggen:** merkwerk, nieuwe tools, nieuwe kanalen, een tweede strategist, vijftien niches tegelijk serieus nemen, en elk nieuw concept na 13 november. Die lijst is geen bescheidenheid, het is de helft van het plan.
 
