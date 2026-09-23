@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Abstract ratchet buckle: strap with teeth entering a frame. Not a Buckley trademark. -->
+  <rect x="8" y="84" width="112" height="32" rx="4" fill="#FCF2D3" fill-opacity=".14"/>
+  <path d="M22 92 l7 8 l-7 8 M38 92 l7 8 l-7 8 M54 92 l7 8 l-7 8 M70 92 l7 8 l-7 8 M86 92 l7 8 l-7 8" stroke="#FCF2D3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="112" y="52" width="80" height="96" rx="18" stroke="#FCF2D3" stroke-width="6"/>
+  <rect x="126" y="66" width="52" height="68" rx="9" stroke="#FCF2D3" stroke-opacity=".5" stroke-width="3"/>
+  <circle cx="152" cy="100" r="6" fill="#FCF2D3"/>
+</svg>

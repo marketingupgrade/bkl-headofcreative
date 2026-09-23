@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* Buckley Belts palette (see brand/buckley-palette.css): dark-first,
+   white type, one warm cream accent. */
+:root {
+  --background: #0e0e0e;
+  --foreground: #ffffff;
+  --accent: #fcf2d3;
+  --accent-gold: #ffebad;
+  --muted: rgba(255, 255, 255, 0.62);
+  --hairline: rgba(255, 255, 255, 0.1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-sans-face), system-ui, sans-serif;
+  --font-mono: var(--font-mono-face), ui-monospace, monospace;
+  --font-serif: var(--font-serif-face), Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans-face), system-ui, sans-serif;
+}
+
+/* Native smooth scrolling fights ScrollTrigger pinning. */
+html {
+  scroll-behavior: auto;
+}
+
+/* Emphasis on a dark page: cream plus the editorial serif italic, so the
+   accent reads even where cream sits next to white. */
+.accent {
+  font-family: var(--font-serif-face), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+  letter-spacing: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Long-form documents (/strategie, /audit). */
+.doc { font-size: 18px; line-height: 1.7; color: rgba(255, 255, 255, 0.86); }
+.doc h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.05; letter-spacing: -0.03em; font-weight: 700; color: #fff; margin: 0 0 0.4em; }
+.doc h2 { font-size: clamp(1.6rem, 3.4vw, 2.2rem); line-height: 1.15; letter-spacing: -0.02em; font-weight: 700; color: #fff; margin: 2.6em 0 0.6em; padding-top: 1.2em; border-top: 1px solid var(--hairline); scroll-margin-top: 80px; }
+.doc h3 { font-size: 1.3rem; line-height: 1.3; font-weight: 700; color: #fff; margin: 2em 0 0.5em; scroll-margin-top: 80px; }
+.doc h1 + h3 { font-family: var(--font-serif-face), Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.6rem; color: var(--accent); margin-top: 0; }
+.doc p, .doc ul, .doc ol { margin: 0 0 1.1em; }
+.doc ul, .doc ol { padding-left: 1.3em; }
+.doc ul { list-style: disc; }
+.doc ol { list-style: decimal; }
+.doc li { margin: 0.3em 0; }
+.doc strong { color: #fff; font-weight: 700; }
+.doc em { color: #fff; }
+.doc a { color: var(--accent); text-underline-offset: 3px; }
+.doc hr { border: 0; border-top: 1px solid var(--hairline); margin: 2.5em 0; }
+.doc blockquote { margin: 1.4em 0; padding: 0.2em 0 0.2em 1.2em; border-left: 2px solid var(--accent); font-family: var(--font-serif-face), Georgia, serif; font-size: 1.25em; line-height: 1.45; color: #fff; }
+.doc blockquote p { margin: 0.3em 0; }
+.doc code { font-family: var(--font-mono-face), monospace; font-size: 0.85em; background: #1a1a1a; padding: 0.1em 0.35em; border-radius: 4px; }
+.doc table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; margin: 1.4em 0 1.8em; font-size: 15px; line-height: 1.45; }
+.doc th, .doc td { border-bottom: 1px solid var(--hairline); padding: 0.65em 0.9em 0.65em 0; text-align: left; vertical-align: top; min-width: 7em; }
+.doc th { font-family: var(--font-mono-face), monospace; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.75px; color: rgba(255, 255, 255, 0.6); }
