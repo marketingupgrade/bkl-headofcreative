@@ -11,7 +11,7 @@ Ik heb geen toegang tot jullie accounts. Alles hieronder berust op wat publiek t
 
 **Wat ik zelf heb gecontroleerd (22 en 23 september 2026):**
 
-- De Meta Ad Library voor Buckley Belts, land Nederland, alleen actieve advertenties. Ongeveer 120 resultaten, waarvan ik de eerste 27 woord voor woord heb gelezen.
+- De Meta Ad Library voor Buckley Belts: alle 444 actieve advertenties (van de ~470 wereldwijd) uitgelezen en geanalyseerd, plus een steekproef van ~90 kaarten uit de ~4.400 inclusief inactief. Zie de [Ad Library-analyse](/ad-library/).
 - Dezelfde Ad Library op de Nederlandse categorie-term "riem zonder gaatjes": ongeveer 20 actieve advertenties.
 - De Nederlandse en internationale webshop: prijzen, bundels, garanties, social proof.
 - Trustpilot: TrustScore 4,7 over 7.994 reviews, met een verdeling van 81% vijf sterren, 10% vier, 3% drie, 1% twee en 5% één. De sterrenverdeling komt rekenkundig op 4,6 uit; TrustScore weegt recentheid mee, dus dat verschil is verwacht.
@@ -35,9 +35,7 @@ Ik heb geen toegang tot jullie accounts. Alles hieronder berust op wat publiek t
 
 ## 1. De these
 
-Buckley praat met één stem tegen één publiek. Vier teksten, waarvan twee twaalf maanden oud, in het Engels, op een Nederlandse markt. De boodschap is: *de #1 riem voor mannen, nu 50% korting.*
-
-Dat is een categorie-boodschap. Hij is voor iedereen bedoeld en daarom voor niemand geschreven.
+Buckley doet al aan niches, maar op instinct en alleen in de eerste drie seconden. Plus-size, vegan, cadeau, vergelijking en outdoor draaien in de visuele hooklaag. Daarna valt vrijwel alles terug op dezelfde tekst en dezelfde pagina: ongeveer dertien teksten over 444 actieve advertenties, 39% op één tekst ("Tired of belts…", live sinds september 2025), allemaal in het Engels. De boodschap onder de hook is: *de #1 riem voor mannen, nu 50% korting.* Dat is een categorie-boodschap.
 
 Mijn voorstel is het tegenovergestelde, en het is geen nuance maar een ander operating model:
 
@@ -51,7 +49,7 @@ Dat draait de rol van creative om. Creative is niet langer de boodschap bovenop 
 
 Drie dingen volgen daaruit, en de rest van dit document werkt ze uit.
 
-1. Er moet een luisterfunctie komen die niches vindt en documenteert. Nu bedenkt één strategist de doelgroepen. Dat is raden met ervaring. §5.
+1. Er moet een luisterfunctie komen die niches vindt en documenteert. Nu ontstaan niches op instinct en stoppen ze na de hook. §5.
 2. Er moet een lijst zijn van benoemde niches met een eigenaar, een status en een uitslag, precies zoals een ABM-team een accountlijst heeft. §6.
 3. En er moet een lus zijn die per week één niche van luisteren naar uitslag brengt. Dat is het ENE ding van dit kwartaal. §10.
 
@@ -85,30 +83,26 @@ Dus: **creative wordt in Q4 afgerekend op orders én op orderwaarde, en zo moet 
 
 ## 3. Wat ik zie als ik naar het huidige werk kijk
 
-> **Bijgewerkt na de Meta Ad Library-census (23 september).** De "vier unieke teksten" hieronder gelden alleen voor de 27 ads in de Nederlandse keywordweergave. Over alle 444 actieve ads zijn het er ongeveer dertien, met 39% op één tekst. En Buckley doet al nichewerk in de visuele laag: plus-size, vegan, cadeau, outdoor. Zie [de Ad Library-analyse](/ad-library/).
+Ik heb alle 444 actieve advertenties van Buckley uitgelezen. Dat klinkt als een gezonde motor, en qua visuals is het dat ook. Qua copy niet: rond de dertien verschillende teksten, waarvan één onder 39% van de ads staat en twee samen goed zijn voor 71 van de top-100 op vertoningen. De headline eronder is vrijwel overal "🔥New Deal Just Dropped. Save BIG today."
 
-Ik heb de Meta Ad Library doorgespit voor Nederland, alleen actieve advertenties. Ongeveer 120 resultaten. Dat klinkt als een gezonde motor.
+De teksten die ik eerst woord voor woord las, met de census erbij (rang = positie in Meta's sortering op vertoningen, geen performance):
 
-Ik heb de eerste 27 resultaten woord voor woord gelezen. Daarin zitten **vier unieke teksten.**
-
-1. *"Tired of belts that feel like an afterthought?"* — 3-pack, 63% korting. Loopt sinds 3 september 2025.
-2. *"We designed the Buckley Belt to do more than just hold things up..."* — 50% korting plus gratis verzending. Loopt sinds 5 september 2025.
-3. *"Experience the perfect fit with Buckley Belt's micro-adjustable design..."* — sinds 4 november 2025.
-4. *"The no-hole Buckley belt men already wear every day, now in a rugged outdoor build"* — voor vakmannen en wandelaars. Gestart 18 september 2026, vijf dagen oud.
-
-De headline onder vrijwel alles is dezelfde: *"🔥New Deal Just Dropped. Save BIG today."*
-
-Als die verhouding doorloopt in de rest van de lijst, zijn ongeveer 120 actieve advertenties geen 120 tests maar een handvol ideeën dat is uitgesmeerd over advertentiesets, landen en plaatsingen. De Ad Library zegt het zelf bij meerdere items: *"4 ads use this creative and text."* Dit is een extrapolatie uit een kwart van de lijst en daarmee de eerste bewering in dit document die ik zou willen laten omvallen; jullie kunnen hem in vijf minuten controleren.
+1. *"Tired of belts that feel like an afterthought?"* — 3-pack, 63% korting. Loopt sinds 3 september 2025. 173 actieve ads (39%), rang #1, 45× in de top-100.
+2. *"We designed the Buckley Belt to do more than just hold things up..."* — 50% korting plus gratis verzending. Loopt sinds 5 september 2025. 54 actieve ads, rang #7.
+3. *"Experience the perfect fit with Buckley Belt's micro-adjustable design..."* — sinds 4 november 2025. 6 actieve ads.
+4. Outdoor, voor vakmannen en wandelaars, in twee lijnen:
+   - *"The no-hole Buckley belt men already wear every day, now in a rugged outdoor build"* — live sinds 20/31 augustus 2026, 20 ads, rang #4.
+   - *"Same Buckley fit… Tougher build 🌧️🎒🔒👖"* — live sinds 30 augustus/1 september 2026, 10 ads, rang #9.
 
 Vier observaties, en de vierde is nieuw ten opzichte van wat je normaal in zo'n audit leest.
 
-**3.1 — Twee van de vier dragende teksten zijn ouder dan een jaar.** Een agency-benchmark uit september 2026 adviseert voor koude prospecting in piek-Q4 een refresh elke 5 tot 7 dagen, en noemt als vermoeidheidssignaal een frequentie boven 3,5 à 4 met een CTR die 20% of meer onder het niveau van de eerste week zakt. Dat is een blogpost van een bureau dat creative verkoopt, geen natuurwet, dus behandel het als richting. Maar de orde van grootte is twaalf maanden tegen zeven dagen.
+**3.1 — De tekst onder 39% van de ads is ouder dan een jaar.** Een agency-benchmark uit september 2026 adviseert voor koude prospecting in piek-Q4 een refresh elke 5 tot 7 dagen, en noemt als vermoeidheidssignaal een frequentie boven 3,5 à 4 met een CTR die 20% of meer onder het niveau van de eerste week zakt. Dat is een blogpost van een bureau dat creative verkoopt, geen natuurwet, dus behandel het als richting. Maar de orde van grootte is twaalf maanden tegen zeven dagen.
 
 **3.2 — De advertenties zijn Engels, de winkel is Nederlands.** buckleybelts.nl is volledig gelokaliseerd, de advertenties niet, en ze linken naar het .com-domein. Ondertussen laat de categorie-zoekopdracht "riem zonder gaatjes" in Nederland ongeveer 20 actieve advertenties zien van onder meer Buckle UP Belts, HappyStrappy en De Lederwaren Ambacht. De advertentie die daar bovenaan komt bij sorteren op vertoningen is niet eens een riem: het is *Meer voor mannen*, met een lange Nederlandstalige advertorial die opent met *"Dit zijn 6 tekens dat je cortisol te hoog is als man boven de 40."* De Ad Library toont geen prestatiecijfers, dus dit zegt niets over wat het oplevert. Het zegt wel dat iemand daar budget achteraan zet, en het is precies de speelhelft waar Buckley niet staat.
 
-**3.3 — Alle copy die ik heb gelezen praat tegen de drager.** *"men swear by"*, *"made for the modern man"*, *"For builders, tradesmen"*. Geen enkele regel spreekt degene aan die dit ding koopt voor een ander.
+**3.3 — De actieve copy praat tegen de drager, niet tegen de koper.** In de actieve copy spreekt geen enkele regel de koper-voor-een-ander aan. Cadeau leeft alleen nog in de visual ("THE ULTIMATE GIFT", 41 ads sinds 5 augustus) en valt daarna terug op "Tired of belts…". Dat is opvallend, want tussen september 2025 en januari 2026 liep er een groot cadeauprogramma ("Gift him the Buckley Belt…", "The Gift He'll Wear More Than His Wedding Ring"). De reflex is er dus. Er is alleen geen dossier, geen pre-lander en geen meetlat bij.
 
-**3.4 — In de 27 die ik las staat precies één niche-advertentie, en hij is vijf dagen oud.** De outdoor-tekst is de eerste die ik zag die een specifieke groep aanspreekt in plaats van "mannen". Dat vind ik het interessantste wat ik heb gezien, want het betekent dat iemand daar dezelfde kant op denkt. Het betekent ook dat er op dit moment één van de twaalf tot vijftien niches uit §7 bespeeld wordt, en dat die ene pas sinds vorige week loopt. Er is geen niche-laag. Er is één experiment.
+**3.4 — Nichecreative wint snel budget, maar stopt na de hook.** De twee outdoor-teksten gingen eind augustus live en stonden binnen een paar weken op #4 en #9 in de sortering op vertoningen. Dat is het model van dit hele document in het klein: een specifieke groep met eigen copy die snel budget wint. Plus-size, vegan en vergelijking draaien alleen als visual. Er is geen niche-laag die ze benoemt, doortrekt naar headline, pre-lander en taal, en apart meet. Er zijn losse experimenten.
 
 ---
 
@@ -136,7 +130,7 @@ Als de engine leunt op één strategist, heb je twee problemen die makkelijk voo
 
 **Capaciteit.** De strategist is een wachtrij.
 
-**Diversiteit, en die is erger.** Eén brein produceert gecorreleerde ideeën. Twintig concepten uit één hoofd bestrijken een smallere ideeënruimte dan twintig uit vier hoofden. Ze zien eruit als volume en gedragen zich als één inzet. Zo komt een account met ruim honderd advertenties op een handvol teksten uit.
+**Diversiteit, en die is erger.** Eén brein produceert gecorreleerde ideeën. Twintig concepten uit één hoofd bestrijken een smallere ideeënruimte dan twintig uit vier hoofden. Ze zien eruit als volume en gedragen zich als één inzet. Zo komt een account met 444 advertenties op ongeveer dertien teksten uit, met 39% op één.
 
 De reflex is "neem een tweede strategist aan". In Q4 doe ik dat niet, en in §16 staat waarom niet.
 
@@ -156,7 +150,7 @@ Drie uitwegen, die elkaar niet uitsluiten.
 
 De drie hierboven zijn bekend en oplosbaar. Dit is de structurele.
 
-Er is geen mechanisme dat sub-niches vindt, documenteert, bedient en afrekent. Er is één strategist die doelgroepen bedenkt, en één outdoor-advertentie van vijf dagen oud die laat zien wat er gebeurt als iemand het wél doet. Het gevolg is een account dat op categorieniveau praat in een markt waarin de veiling relevantie beloont en herhaling afstraft.
+Er is geen mechanisme dat sub-niches vindt, documenteert, bedient en afrekent. Er is één strategist die doelgroepen bedenkt, en twee outdoor-teksten die binnen weken op #4 en #9 stonden, en die laten zien wat er gebeurt als iemand het wél doet. Het gevolg is een account dat op categorieniveau praat in een markt waarin de veiling relevantie beloont en herhaling afstraft.
 
 Dat is wat §5 tot en met §7 rechtzetten.
 
@@ -306,7 +300,7 @@ Ze staan op volgorde van hoe overtuigd ik ben, en de bovenste vier zijn mijn Tie
 |---|---|---|---|---|
 | 1 | **De cadeaukoper** (partner, kind, collega) | Sinterklaas, Kerst, verjaardag, "wat geef ik hem" | 5 — Social Influence | 3-pack of riem + wallet, cadeauverpakt |
 | 2 | **De man die afvalt** | Riem zit in het laatste gaatje en er is nog ruimte over | 2 — Development & Accomplishment | Één riem, met de belofte dat hij meebeweegt |
-| 3 | **Vakman en buitenmens** | Riem begeeft het onder een gereedschapsgordel of een rugzak | 8 — Loss & Avoidance | Outdoor-lijn. Loopt al sinds 18 september |
+| 3 | **Vakman en buitenmens** | Riem begeeft het onder een gereedschapsgordel of een rugzak | 8 — Loss & Avoidance | Outdoor-lijn. Loopt sinds eind augustus, rang #4 en #9 |
 | 4 | **EDC en gear** | Zoektocht naar het beste exemplaar van een alledaags voorwerp | 3 — Empowerment & Feedback | Riem + wallet, het mechanisme als onderwerp |
 | 5 | **Nieuwe dresscode** | Eerste kantoorbaan, promotie, van thuiswerken naar kantoor | 4 — Ownership | 3-pack: werk, weekend, net |
 | 6 | **Grote maten** | Standaardriemen houden op waar zijn maat begint | 8 — Loss & Avoidance | Maatvoering als hoofdboodschap |
@@ -337,7 +331,7 @@ Dit is de niche waarvan ik het minst zeker ben en waar het meeste in kan zitten.
 
 Het mechanisme van dit product is micro-verstelbaarheid: meer dan dertig standen in plaats van vijf gaatjes. Voor iemand met een stabiel gewicht is dat comfort. Voor iemand die afvalt is het een ander product: het is de riem die meebeweegt, in plaats van de riem die elke maand opnieuw herinnert dat hij niet meer past. Het laatste gaatje is voor deze groep een emotioneel object.
 
-Dat maakt het bovendien de enige niche op deze lijst met Core Drive 2 als dominante motivatie — vooruitgang en prestatie — en Core Drive 2 gebruikt Buckley nergens. Een riem die met je meebeweegt is het enige kledingstuk in die periode dat niet elke maand vervangen hoeft te worden.
+Dat maakt het bovendien de enige niche op deze lijst met Core Drive 2 als dominante motivatie — vooruitgang en prestatie — en Core Drive 2 gebruikt Buckley nergens. Een riem die met je meebeweegt is het enige kledingstuk in die periode dat niet elke maand vervangen hoeft te worden. De veranderende taille zelf draait al ("Your waist moves throughout the day", 14 ads, rang #130), maar zonder dossier of eigen pre-lander: doortrekken, niet introduceren.
 
 **Wat ik hier niet doe:** lichaamsschaamte gebruiken, voor-en-na-beelden, of impliceren dat iemand anders zou moeten zijn dan hij is. De boodschap gaat over de riem die meegaat, niet over het lichaam dat verandert. Dat is geen kosmetische keuze; een merk dat deze groep verkeerd aanspreekt krijgt dat in de reacties terug, en terecht.
 
@@ -367,7 +361,7 @@ Op basis van de 27 advertenties die ik heb gelezen, plus de product- en bundelpa
 |---|---|---|
 | **1. Epic Meaning & Calling** | Nauwelijks | Geen missie. "Belt from the future" komt in de buurt en blijft een slogan |
 | **2. Development & Accomplishment** | Nee | Geen vooruitgang, geen beheersing. Zie §7.2 voor waar dit wél kan |
-| **3. Empowerment of Creativity & Feedback** | Ongebruikt, en dat is zonde | Het mechanisme levert de feedbackhelft ruimhartig. Zie §8.3 |
+| **3. Empowerment of Creativity & Feedback** | Draait al (rang #40), maar zonder dossier of eigen pre-lander: doortrekken, niet introduceren | Het mechanisme levert de feedbackhelft ruimhartig. Zie §8.3 |
 | **4. Ownership & Possession** | Deels | De 3-pack raakt eraan, maar als korting verpakt, niet als bezit |
 | **5. Social Influence & Relatedness** | Alleen als social proof | "TRUSTED BY 1,000,000+ MEN". Eenrichtingsverkeer: geen delen, geen geven |
 | **6. Scarcity & Impatience** | Zwaar, en kapot | Zie §8.2 |
@@ -390,7 +384,7 @@ Herstel is dus geen prijsvraagstuk maar een creative-vraagstuk: schaarste die ni
 
 **Core Drive 5 — Social Influence & Relatedness.** Iets voor een ander kopen is geen transactie maar een relatiehandeling. Buckley gebruikt CD5 nu uitsluitend als eenrichtings-social-proof, de zwakste vorm. De sterkste vorm is geven, en die staat nergens aan. Drie van de twaalf niches in §7 draaien erop.
 
-**Core Drive 3 — Empowerment of Creativity & Feedback.** Chou's CD3 heeft twee helften: zelf iets uitproberen en combineren, en er direct antwoord op krijgen. Het ratchet-mechanisme levert vooral de tweede helft, en het levert hem ruimhartig: meer dan dertig standen, klik, precies goed. Dat is waarschijnlijk waarom "oddly satisfying"-video's werken. Buckley heeft het mechanisme in handen zonder het als ervaring te tonen. Begin bij EDC uit §7.3, want dat publiek wil het zien.
+**Core Drive 3 — Empowerment of Creativity & Feedback.** Chou's CD3 heeft twee helften: zelf iets uitproberen en combineren, en er direct antwoord op krijgen. Het ratchet-mechanisme levert vooral de tweede helft, en het levert hem ruimhartig: meer dan dertig standen, klik, precies goed. Dat is waarschijnlijk waarom "oddly satisfying"-video's werken. Het klikgeluid draait al ("hear the click", 41 ads, rang #40), maar zonder dossier of eigen pre-lander: doortrekken, niet introduceren. Begin bij EDC uit §7.3, want dat publiek wil het zien.
 
 **Core Drive 7 — Unpredictability & Curiosity.** "Een riem zonder gaatjes" schrijft zijn eigen nieuwsgierigheidsgat: hoe blijft hij dan zitten? Dat gat drie seconden open laten staan is de goedkoopste hookverbetering die er bestaat en hij kost geen shoot.
 
@@ -879,7 +873,7 @@ Niet als afsluiter, maar omdat de antwoorden dit stuk zouden aanscherpen of omgo
 
 ## 20. Samengevat
 
-**De diagnose.** Buckley praat met één stem tegen één publiek. In de 27 advertenties die ik heb gelezen zitten vier teksten, waarvan twee ouder dan een jaar, in het Engels op een Nederlandse markt, met een korting die nooit afloopt. Er is precies één niche-advertentie in de 27 die ik las, en die is vijf dagen oud. Er wordt veel gemaakt en weinig vastgelegd — en dat is de eerste aanname die ik in week 1 zou toetsen.
+**De diagnose.** Buckley doet al aan niches, op instinct en in de eerste drie seconden: plus-size, vegan, cadeau, outdoor. Daarna valt alles terug op ongeveer dertien Engelse teksten over 444 ads, 39% op één, met een korting die nooit afloopt. Outdoor bewijst dat nichecopy snel budget wint (#4 en #9 binnen weken). Wat ontbreekt is het systeem: benoemen, doortrekken naar copy, pre-lander en taal, en per niche meten.
 
 **Het voorstel.** Behandel sub-niches als accounts. Zoek ze met een luisterfunctie, geef ze een dossier, een eigen boodschap, een eigen pre-lander en een eigen P&L, en laat het algoritme het targeten doen. Creative is in 2026 niet de boodschap bovenop de targeting. Creative ís de targeting, en dan is preciezer weten tegen wie je praat de belangrijkste vaardigheid in het team.
 
@@ -897,4 +891,4 @@ Niet als afsluiter, maar omdat de antwoorden dit stuk zouden aanscherpen of omgo
 
 *Raamwerken: Octalysis (Yu-kai Chou), Blitzscaling (Reid Hoffman & Chris Yeh), The ONE Thing (Gary Keller & Jay Papasan). Ik pas ze toe op een situatie waarvoor ze niet geschreven zijn, dus staat per raamwerk in §8.5, §9.6 en §10.5 waar ik ze niet volg.*
 
-*Bronnen die ik zelf heb gecontroleerd op 22 en 23 september 2026: Meta Ad Library (Nederland, actieve advertenties, zoekopdrachten "Buckley Belts" en "riem zonder gaatjes"), buckleybelts.nl, buckleybelts.com, Trustpilot. Het einde van GummySearch en de alternatieven in §5.3 komen uit een vergelijkingsartikel uit 2026. De refresh-cadans en frequentiedrempels in §3.1 komen uit een blogpost van een bureau, september 2026: richtinggevend, niet gezaghebbend. Alle bedragen en ordervolumes in §2 zijn rekenwerk op een aangenomen AOV, geen data van jullie. De twaalf niches in §7 zijn hypotheses, geen bevindingen.*
+*Bronnen die ik zelf heb gecontroleerd op 22 en 23 september 2026: Meta Ad Library (alle 444 actieve advertenties van Buckley wereldwijd, steekproef van ~90 inactieve kaarten, EU/UK-transparantiedata van drie ads, en de NL-zoekopdracht "riem zonder gaatjes"), buckleybelts.nl, buckleybelts.com, Trustpilot. Het einde van GummySearch en de alternatieven in §5.3 komen uit een vergelijkingsartikel uit 2026. De refresh-cadans en frequentiedrempels in §3.1 komen uit een blogpost van een bureau, september 2026: richtinggevend, niet gezaghebbend. Alle bedragen en ordervolumes in §2 zijn rekenwerk op een aangenomen AOV, geen data van jullie. De twaalf niches in §7 zijn hypotheses, geen bevindingen.*
