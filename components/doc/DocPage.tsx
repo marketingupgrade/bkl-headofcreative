@@ -4,6 +4,32 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeSlug from "rehype-slug";
+import GithubSlugger from "github-slugger";
+import DocToc, { type TocItem } from "./DocToc";
+
+/**
+ * The h2 sections for the floating contents. Slugs every heading in order
+ * with the same slugger rehype-slug uses, so duplicate-suffixes line up.
+ */
+function tocItems(md: string): TocItem[] {
+  const slugger = new GithubSlugger();
+  const items: TocItem[] = [];
+  let fenced = false;
+  for (const line of md.split("\n")) {
+    if (line.startsWith("```")) fenced = !fenced;
+    const m = !fenced && /^(#{1,6})\s+(.*?)\s*#*$/.exec(line);
+    if (!m) continue;
+    const text = m[2].replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[*_`]/g, "");
+    const id = slugger.slug(text);
+    if (m[1].length !== 2) continue;
+    const n = /^(\d+)\.\s+(.*)$/.exec(text);
+    const title = n ? n[2] : text;
+    let label = title.split(":")[0].trim();
+    if (label.length > 28) label = label.slice(0, 27).replace(/\s+\S*$/, "") + "…";
+    items.push({ id, num: n ? n[1] : String(items.length + 1), label, title });
+  }
+  return items;
+}
 
 /** Renders one of the source documents from /content as a readable page. */
 export default function DocPage({ file, kicker }: { file: string; kicker: string }) {
@@ -31,6 +57,7 @@ export default function DocPage({ file, kicker }: { file: string; kicker: string
           </ReactMarkdown>
         </article>
       </main>
+      <DocToc items={tocItems(md)} />
     </div>
   );
 }
