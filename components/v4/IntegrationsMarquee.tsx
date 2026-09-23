@@ -213,6 +213,9 @@ export default function IntegrationsMarquee() {
                 <MarqueeRow tiles={AUDIT} reverse={true} visible={marquee2Visible} delay={150} />
               </div>
             </div>
+            <p className="m-0 mt-6 text-center font-mono uppercase px-2" style={{ fontSize: "11px", letterSpacing: "0.5px", lineHeight: 1.6, color: "#0E0E0E99" }}>
+              CD = Core Drive uit Octalysis: 2 prestatie · 3 creativiteit en feedback · 4 bezit · 5 sociale invloed · 6 schaarste · 8 verliesvermijding
+            </p>
           </div>
         </div>
       </section>
