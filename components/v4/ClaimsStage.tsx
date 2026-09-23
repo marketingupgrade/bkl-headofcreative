@@ -49,8 +49,8 @@ const STACKS: { id: string; claims: Claim[] }[] = [
     id: "niche",
     claims: [
       { index: "07", channel: "“Your belt shouldn't tap out… Your waist moves throughout the day”", value: "14 ads · rang #130", customer: "Tekst 7" },
-      { index: "06", channel: "“Same Buckley fit… Tougher build 🌧️🎒🔒👖”", value: "live sinds 30 aug 2026 · rang #9", customer: "Niche · outdoor 2" },
-      { index: "05", channel: "“The no-hole Buckley belt… now in a rugged outdoor build”", value: "live sinds 20 aug 2026 · rang #4", customer: "Niche · outdoor 1" },
+      { index: "06", channel: "“Same Buckley fit… Tougher build 🌧️🎒🔒👖”", value: "live sinds 30 aug/1 sep 2026 · rang #9", customer: "Niche · outdoor 2" },
+      { index: "05", channel: "“The no-hole Buckley belt… now in a rugged outdoor build”", value: "live sinds 20/31 aug 2026 · rang #4", customer: "Niche · outdoor 1" },
     ],
   },
 ];
