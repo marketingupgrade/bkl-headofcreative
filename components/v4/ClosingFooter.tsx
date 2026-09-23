@@ -1,18 +1,11 @@
 /**
  * @component ClosingFooter
- * @description The ask plus the footer. The questions block follows the
- *   dark numbered list of cargo-structured-data-1; the footer is Kelvin
- *   "Footer with CTA and Navigation" (kelvin-footer-6): link columns, a
- *   96px display CTA row between hairlines, and a mono base row with a
- *   square back-to-top button. Hover timings are the reference's
- *   (0.4s cubic-bezier(.22,1,.36,1)).
+ * @description The ask that closes the page, in the dark numbered-list
+ *   style of cargo-structured-data-1. No footer: the page is written for
+ *   the founders, not for navigation.
  */
 
-import Link from "next/link";
-
-const EASE = "[transition-timing-function:cubic-bezier(.22,1,.36,1)]";
 const label = "uppercase tracking-[0.75px] font-mono text-xs font-medium leading-[1.2]";
-const link = `text-[#FFFFFF99] text-[17px] leading-none no-underline transition-colors duration-[400ms] ${EASE} hover:text-[#FFFFFF]`;
 
 // §19, shortened. The answers would sharpen or overturn the plan.
 const QUESTIONS = [
@@ -27,7 +20,7 @@ const QUESTIONS = [
 export default function ClosingFooter() {
   return (
     <>
-      <section className="relative font-sans bg-[#0E0E0E] text-white pt-40 pb-24 max-[767px]:pt-24">
+      <section className="relative font-sans bg-[#0E0E0E] text-white pt-40 pb-48 max-[767px]:pt-24 max-[767px]:pb-32">
         <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5">
           <div className="grid grid-cols-[1fr_1.5fr] gap-16 max-[991px]:grid-cols-1 max-[991px]:gap-10">
             <div className="flex flex-col gap-3 items-start">
@@ -54,59 +47,6 @@ export default function ClosingFooter() {
         </div>
       </section>
 
-      <footer className="relative font-sans bg-[#000000] text-white pt-[120px] pb-[120px] max-[991px]:py-24 max-[767px]:py-[72px] max-[479px]:py-14 text-[17px] leading-[1.5]">
-        <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5 relative">
-          <div className="grid grid-cols-2 gap-16 pb-12 max-[991px]:grid-cols-1 max-[991px]:gap-10">
-            <div className="grid grid-cols-2 gap-8">
-              <div className="flex flex-col items-start gap-4">
-                <div className={label}>Lezen</div>
-                <Link href="/strategie/" className={link}>Q4-strategie v3</Link>
-                <Link href="/audit/" className={link}>Audience-audit YouTube</Link>
-                <Link href="/strategie/#7-twaalf-niche-hypotheses-voor-buckley" className={link}>De nichelijst</Link>
-                <Link href="/strategie/#15-q4-week-voor-week" className={link}>Q4, week voor week</Link>
-              </div>
-              <div className="flex flex-col items-start gap-4">
-                <div className={label}>Raamwerken</div>
-                <Link href="/strategie/#8-octalysis-audit-welke-motivatie-koopt-dit-account-en-welke-laat-het-liggen" className={link}>Octalysis</Link>
-                <Link href="/strategie/#9-blitzscaling-audit-welk-stadium-is-deze-engine-en-welke-branden-laten-we-branden" className={link}>Blitzscaling</Link>
-                <Link href="/strategie/#10-the-one-thing-de-nichelus" className={link}>The ONE Thing</Link>
-              </div>
-            </div>
-            <div className="flex flex-col items-start gap-3">
-              <div className={label}>De opdracht</div>
-              <div className="text-[#FFFFFF99] text-[17px] leading-snug max-w-[26rem]">
-                Head of Creative · Cintura Group. Een Q4-plan voor Buckley Belts, opgesteld van buitenaf, zonder toegang
-                tot de accounts. Waar ik gok, staat het erbij.
-              </div>
-            </div>
-          </div>
-
-          <Link
-            href="/strategie/"
-            className={`flex flex-row justify-between items-center w-full gap-6 border-t border-b border-[#FFFFFF29] py-10 text-white no-underline transition-colors duration-[400ms] ${EASE} hover:text-[#FCF2D3]`}
-          >
-            <span className="font-bold leading-none tracking-[-0.02em] text-[96px] max-[991px]:text-[72px] max-[767px]:text-[48px] max-[479px]:text-[34px]">
-              Lees de strategie
-            </span>
-            <svg aria-hidden="true" viewBox="0 0 24 24" className="flex-shrink-0 w-[72px] h-[72px] max-[991px]:w-[52px] max-[991px]:h-[52px] max-[767px]:w-[30px] max-[767px]:h-[30px]">
-              <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-            </svg>
-          </Link>
-
-          <div className="flex flex-row justify-between items-center gap-6 pt-8">
-            <div className={`${label} text-[#FFFFFF99]`}>© 2026 Joris van Huët · Q4 Creative Strategie · v1</div>
-            <a
-              href="#top"
-              aria-label="Terug naar boven"
-              className={`inline-flex justify-center items-center w-11 h-11 text-[#FFFFFF99] border border-[#FFFFFF29] no-underline transition-[color,border-color] duration-[400ms] ${EASE} hover:text-white hover:border-white`}
-            >
-              <svg aria-hidden="true" viewBox="0 0 24 24" className="w-[18px] h-[18px]">
-                <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }
