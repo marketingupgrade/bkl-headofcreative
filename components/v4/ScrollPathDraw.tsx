@@ -359,6 +359,7 @@ export default function ScrollPathDraw() {
                         }}
                       />
                       <span
+                        className="max-[640px]:hidden"
                         style={{
                           position: "absolute",
                           whiteSpace: "nowrap",
@@ -417,6 +418,15 @@ export default function ScrollPathDraw() {
                 </ol>
               </div>
             </div>
+            <ol className="hidden max-[640px]:grid grid-cols-1 gap-2 m-0 mt-5 p-0 list-none w-full">
+              {STOPS.map((stop, i) => (
+                <li key={stop.label} className="flex items-baseline gap-3 border-b border-[#FFFFFF14] pb-2">
+                  <span className="font-mono text-[11px]" style={{ color: ACCENT_AMBER }}>{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-bold text-[16px]">{stop.label}</span>
+                  <span className="ml-auto font-mono text-[10.5px] text-right" style={{ color: "#FFFFFF80" }}>{stop.sub}</span>
+                </li>
+              ))}
+            </ol>
           </div>
         </div>
       </section>

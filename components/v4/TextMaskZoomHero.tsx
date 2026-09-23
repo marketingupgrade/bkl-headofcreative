@@ -344,8 +344,10 @@ export default function TextMaskZoomHero() {
             className="absolute m-0 font-mono"
             style={{
               left: "1.25rem",
-              bottom: "1.25rem",
-              fontSize: "0.8rem",
+              right: "1.25rem",
+              top: "1.25rem",
+              fontSize: "0.75rem",
+              lineHeight: 1.5,
               color: "rgba(255,255,255,0.88)",
             }}
           >

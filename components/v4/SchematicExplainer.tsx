@@ -197,7 +197,7 @@ export default function SchematicExplainer() {
                 </div>
                 <h2
                   className="m-0 font-sans max-[991px]:text-[44px] max-[991px]:tracking-[-1.2px] max-[767px]:text-[34px] max-[767px]:tracking-[-0.8px] max-[479px]:text-[28px]"
-                  style={{ fontSize: "60px", fontWeight: 700, letterSpacing: "-1.6px", lineHeight: 1.02, maxWidth: "12em", color: FG }}
+                  style={{ fontSize: "clamp(28px, 4.2vw, 60px)", fontWeight: 700, letterSpacing: "-1px", lineHeight: 1.05, maxWidth: "12em", color: FG }}
                 >
                   {step.heading}
                 </h2>

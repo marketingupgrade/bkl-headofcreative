@@ -65,8 +65,8 @@ export default function RolodexTextScroll() {
 
     if (!root || !track || !stage || faces.length < 2) return;
 
-    // Reduced motion: bail out entirely — CSS handles the static fallback
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    // Reduced motion or a phone: no drum. CSS renders both lines stacked.
+    if (window.matchMedia("(prefers-reduced-motion: reduce), (max-width: 767px)").matches) return;
 
     const ctx = gsap.context(() => {
       // Every line but the first waits below the drum's edge, face-down
@@ -127,7 +127,7 @@ export default function RolodexTextScroll() {
       style={{ backgroundColor: BG_COLOR, color: FG_COLOR }}
     >
       <style>{`
-        @media (prefers-reduced-motion: reduce) {
+        @media (prefers-reduced-motion: reduce), (max-width: 767px) {
           .rolodex-track { height: auto !important; }
           .rolodex-stage {
             height: auto !important;
@@ -137,7 +137,7 @@ export default function RolodexTextScroll() {
             perspective: none !important;
             display: grid !important;
             place-items: center !important;
-            padding: 16vh 4vw !important;
+            padding: 14vh 1.25rem !important;
           }
           .rolodex-reel {
             position: static !important;
@@ -147,12 +147,14 @@ export default function RolodexTextScroll() {
           }
           .rolodex-line { position: static !important; display: block !important; }
           .rolodex-face {
-            font-size: clamp(1.3rem, 3vw, 2.2rem) !important;
+            font-size: clamp(1.7rem, 6.5vw, 2.4rem) !important;
             transform: none !important;
             will-change: auto !important;
           }
           .rolodex-face-hidden { visibility: visible !important; }
-          .rolodex-eyebrow { position: static !important; margin: 0 0 2rem !important; }
+          .rolodex-eyebrow { position: static !important; margin: 0 0 2rem !important; order: 1; }
+          .rolodex-reel { order: 2; }
+          .rolodex-eyebrow-end { order: 3; margin: 2rem 0 0 !important; }
         }
       `}</style>
 
@@ -176,7 +178,7 @@ export default function RolodexTextScroll() {
             Wat kijkers vragen onder Buckley-video&apos;s · letterlijk
           </p>
           <p
-            className="rolodex-eyebrow absolute left-0 right-0 bottom-[12vh] m-0 text-center font-mono uppercase px-6"
+            className="rolodex-eyebrow rolodex-eyebrow-end absolute left-0 right-0 bottom-[12vh] m-0 text-center font-mono uppercase px-6"
             style={{ fontSize: "12px", fontWeight: 500, letterSpacing: "0.75px", color: "#FFFFFF66" }}
           >
             Twee vragen · het merk kan ze allebei zelf beantwoorden

@@ -139,7 +139,7 @@ export default function FaqAccordion() {
             </div>
             <h2
               className="m-0 font-sans max-[991px]:text-5xl max-[991px]:tracking-[-1.4px] max-[767px]:text-[40px] max-[767px]:tracking-[-1px] max-[479px]:text-[34px] max-[479px]:tracking-[-0.8px]"
-              style={{ fontSize: "64px", fontWeight: 700, lineHeight: 1, letterSpacing: "-2px", color: "#FFFFFF" }}
+              style={{ fontSize: "clamp(32px, 4.6vw, 64px)", fontWeight: 700, lineHeight: 1.02, letterSpacing: "clamp(-2px, -0.14vw, -0.8px)", color: "#FFFFFF" }}
             >
               <span style={{ color: "#FFFFFF8c" }}>Voordat</span> jullie het vragen.
             </h2>

@@ -186,6 +186,7 @@ export default function ScrollTimelineGem() {
 
         /* Narrow: single column, spine on left */
         @media (max-width: 560px) {
+          .scroll-timeline-nodes { gap: 2.25rem !important; }
           .scroll-timeline-spine-track {
             left: 1.25rem !important;
             transform: none !important;
@@ -218,7 +219,7 @@ export default function ScrollTimelineGem() {
         </div>
         <h2
           className="m-0 mx-auto mt-4 font-sans max-[767px]:text-[38px]"
-          style={{ fontSize: "64px", fontWeight: 700, lineHeight: 1, letterSpacing: "-2px", maxWidth: "14em", color: FG }}
+          style={{ fontSize: "clamp(32px, 4.6vw, 64px)", fontWeight: 700, lineHeight: 1.02, letterSpacing: "clamp(-2px, -0.14vw, -0.8px)", maxWidth: "14em", color: FG }}
         >
           <span style={{ color: "#FFFFFF8c" }}>De motor blijft draaien</span> terwijl we hem verbouwen.
         </h2>
@@ -260,6 +261,7 @@ export default function ScrollTimelineGem() {
         {/* Nodes */}
         <div
           ref={nodesRef}
+          className="scroll-timeline-nodes"
           style={{
             display: "flex",
             flexDirection: "column",
