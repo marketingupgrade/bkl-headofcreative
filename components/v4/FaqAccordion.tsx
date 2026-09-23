@@ -17,6 +17,11 @@ const faqs = [
       "Ja, en dat is het beste nieuws in jullie account. Plus-size, vegan, cadeau, vergelijking, native en outdoor draaien allemaal, en de outdoor-copy stond binnen weken op #4 en #9. Wat ontbreekt is het systeem eromheen: de niche benoemen, doortrekken naar copy, headline, pre-lander en taal, en apart meten. Nu valt elke hook na drie seconden terug op dezelfde tekst en dezelfde pagina.",
   },
   {
+    question: "Waarom geen dameslijn in Duitsland, of meedoen met de korting van de klonen?",
+    answer:
+      "Allebei bewust niet. Duitsland is voor vrouwen bezet door Beltisse, een merk ‘von Frauen für Frauen’: die positie win je als mannenmerk niet snel. En de klonen verkopen dezelfde belofte voor €29,95 met 2+1. Buckley wint op pasvorm, klik, systeem en assortiment, niet op prijs en niet op leer, want Nordform en Anson gebruiken full grain.",
+  },
+  {
     question: "Waarom geen tweede strategist aannemen?",
     answer:
       "Werven, inwerken en productief krijgen duurt langer dan het kwartaal, en het inwerken komt bij de huidige strategist vandaan, precies waar de wachtrij al zit. Ik haal de oordeelsvorming uit het hoofd en leg hem in artefacten. In november werf ik voor januari, met het Board in de hand.",

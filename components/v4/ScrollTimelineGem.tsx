@@ -25,7 +25,7 @@ const events = [
   { year: "Week 4–6 · 22 okt–11 nov", title: "Golf 2: de lus draait, de mix gaat om", body: "Eén niche per week. Van 20 nieuwe concepten naar ongeveer 12 nieuw plus 10 tot 18 iteraties. Beslismoment uiterlijk 4 november. Singles Day als generale repetitie.", side: "right" },
   { year: "13 november", title: "De bibliotheek gaat dicht", body: "Geen nieuwe concepten meer, alleen varianten op bewezen werk. Leren in de duurste advertentieweek van het jaar is de kostbaarste manier van leren.", side: "left" },
   { year: "27–30 november", title: "Black Friday, Cyber Monday", body: "Testbudget naar nul, nichelus op pauze. Dagelijkse iteratie op wat leeft. De ene week die draait om verzilveren.", side: "right" },
-  { year: "5 december", title: "Sinterklaas: de piek die iedereen vergeet", body: "Besteldeadline rond 2 december. De cadeaulijn op volle kracht in NL en BE, met een leverbelofte die ops hard maakt, of zonder datumbelofte.", side: "left" },
+  { year: "5 december", title: "Sinterklaas: de piek die iedereen vergeet", body: "Bij 5–7 werkdagen levertijd ligt de laatste veilige besteldatum rond 25–27 november: midden in de Black Friday-week. De deadline gaat de creative in, of er komt een leverbelofte die ops hard maakt.", side: "left" },
   { year: "Week 11–13 · december", title: "Kerst, dan de aftocht", body: "Nichelus weer aan. ‘Op tijd binnen’ als dragende angle. Daarna retro, het Learning Log opschonen, de dossierbibliotheek overdraagbaar maken.", side: "right" },
 ] as const;
 

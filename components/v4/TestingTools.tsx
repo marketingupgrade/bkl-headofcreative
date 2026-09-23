@@ -130,7 +130,8 @@ export default function TestingTools() {
             <div className="text-2xl font-bold">Bereikte hij de niche?</div>
             <p className="m-0 mt-2 text-[16px] leading-relaxed text-[#FFFFFFb3]">
               Listener 5, de Meta Ad Library API: bereik per gender, leeftijd en land in EU/UK, per creative, ook van concurrenten. Een
-              sorteringsmeter en een marktradar, geen performancebron. Nachtelijke pulls, geen scraping.
+              sorteringsmeter en een marktradar, geen performancebron. Nachtelijke pulls, geen scraping. Buckley plus Nordform, Anson,
+              SlideBelts, Beltisse, Biscomi en Buckle UP in één call; voor cadeau is Nordform’s 48% vrouwen het ijkpunt.
             </p>
           </div>
         </div>

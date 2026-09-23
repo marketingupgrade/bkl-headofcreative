@@ -28,18 +28,20 @@ const HYPOTHESES: Tile[] = [
   { label: "De herhaalkoper", note: "CD4" },
 ];
 
-// Row 2: what the YouTube audit and the Ad Library census did to the list.
+// Row 2: what the YouTube audit, the Ad Library census and the competitor
+// analysis did to the list.
 const AUDIT: Tile[] = [
-  { label: "Vrouwen", note: "nieuw · tier 1?" },
+  { label: "Cadeau voor de vrouwelijke koper", note: "Q4 · meetlat 30–50%" },
+  { label: "Vrouwen", note: "NL open · DE bezet" },
   { label: "Vakman en buitenmens", note: "draait · rang #4" },
-  { label: "Duitstalig", note: "nieuw · tier 2-test" },
+  { label: "Duitstalig", note: "tier 2 · Nordform doet het" },
+  { label: "Zorg- en ploegendienst", note: "nieuw · NL" },
+  { label: "Buitenwerk en chauffeurs", note: "nieuw · NL" },
+  { label: "Veranderende maat", note: "EU niet bezet" },
   { label: "Plus-size", note: "draait · alleen visual" },
-  { label: "Veranderende maat", note: "draait · rang #130" },
   { label: "Vegan en bewust", note: "draait · alleen visual" },
   { label: "Het klikgeluid", note: "draait · rang #40" },
-  { label: "De cadeaukoper", note: "draaide sep–jan" },
   { label: "De tinkerer", note: "nieuw · tier 3" },
-  { label: "Kinderriemen", note: "navragen" },
 ];
 
 function LogoTile({ label, note }: Tile) {
@@ -160,7 +162,7 @@ export default function IntegrationsMarquee() {
               }`}
             >
               <div className="uppercase font-mono" style={{ fontSize: "12px", fontWeight: 500, letterSpacing: "0.75px", color: "#0E0E0E99" }}>
-                Rij 1 · de hypotheses &nbsp;·&nbsp; rij 2 · wat de audit en de Ad Library ermee deden
+                Rij 1 · de hypotheses &nbsp;·&nbsp; rij 2 · na de audit, de Ad Library en de concurrentie
               </div>
               <h2
                 className="m-0 font-sans text-[2.75rem] leading-[3.1rem] font-bold tracking-[-0.1rem] text-black max-[767px]:text-[2rem] max-[767px]:leading-[2.5rem] max-[767px]:tracking-[-0.062rem]"

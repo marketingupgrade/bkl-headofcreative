@@ -4,7 +4,7 @@
  *
  *   de niche stopt na drie seconden → de hooklaag → 444 ads, één tekst →
  *   van instinct naar systeem → de engine vandaag en straks → de these → de nichelus → het upgradeproces → wie
- *   doet wat → de nichelogica (gemeten sortering, mechanisme, lijst, tiers) → testen en
+ *   doet wat → de nichelogica (gemeten sortering, speelveld, mechanisme, lijst, tiers) → testen en
  *   tools → $25M → bewijs → bezwaren → wat blijft → de vragen
  *
  * Alleen de hero is statisch geïmporteerd; de rest is next/dynamic zodat
@@ -14,6 +14,7 @@ import dynamic from "next/dynamic";
 import TextMaskZoomHero from "@/components/v4/TextMaskZoomHero";
 
 const HookLayer = dynamic(() => import("@/components/v4/HookLayer"));
+const Speelveld = dynamic(() => import("@/components/v4/Speelveld"));
 const SortingProof = dynamic(() => import("@/components/v4/SortingProof"));
 const StatsReveal = dynamic(() => import("@/components/v4/StatsReveal"));
 const RolodexTextScroll = dynamic(() => import("@/components/v4/RolodexTextScroll"));
@@ -77,8 +78,9 @@ export default function Home() {
       {/* 9 · Wie doet wat, vanaf maandag */}
       <RolesGrid />
 
-      {/* 10 · De nichelogica: gemeten op hun eigen ads, het mechanisme (FIG 01–04), de lijst, de tiers */}
+      {/* 10 · De nichelogica: gemeten sortering, het speelveld, het mechanisme (FIG 01–04), de lijst, de tiers */}
       <SortingProof />
+      <Speelveld />
       <SchematicExplainer />
       <IntegrationsMarquee />
       <PricingTiles />

@@ -15,10 +15,11 @@ export default function DocPage({ file, kicker }: { file: string; kicker: string
           <Link href="/" className="font-mono text-xs uppercase tracking-[0.75px] text-[#FFFFFF99] no-underline hover:text-white">
             ← Terug naar het verhaal
           </Link>
-          <div className="flex gap-5 font-mono text-xs uppercase tracking-[0.75px]">
+          <div className="flex flex-wrap justify-end gap-x-5 gap-y-2 font-mono text-xs uppercase tracking-[0.75px]">
             <Link href="/strategie/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Strategie</Link>
             <Link href="/audit/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Audit</Link>
             <Link href="/ad-library/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Ad Library</Link>
+            <Link href="/concurrentie/" className="text-[#FFFFFF99] no-underline hover:text-[#FCF2D3]">Concurrentie</Link>
           </div>
         </nav>
       </header>

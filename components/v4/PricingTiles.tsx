@@ -34,7 +34,7 @@ const TIERS = [
       "Eigen aanbod of bundel",
       "Eigen P&L",
     ],
-    note: "Q4-kandidaten: de cadeaukoper (tier 1 omdat Q4 hem urgent maakt; het merk draaide hem zelf al een seizoen, performancedata ontbreekt), vakman en buitenmens. De audit voegt vrouwen toe: product bestaat, vraag is de luidste, creative is nul.",
+    note: "Q4-kandidaten: cadeau voor de vrouwelijke koper (Nordform haalt daar 48% vrouwen, Buckley 7–16%; het merk draaide cadeau al een seizoen, performancedata ontbreekt) en vakman en buitenmens (outdoor staat op #4). Bewust niet: een dameslijn in Duitsland, waar Beltisse zit.",
   },
   {
     label: "Tier 2 · Eigen boodschap",
@@ -46,7 +46,7 @@ const TIERS = [
       "Een aangepaste sectie op de bestaande pre-lander",
       "Deelt het aanbod",
     ],
-    note: "Hier landen de niches die in tier 3 twee keer boven de drempel kwamen.",
+    note: "Kandidaten: een Duitstalige lijn en de beroepsniches in NL (zorg- en ploegendienst, buitenwerk), waar Biscomi de taal al test en niemand ze met een merk claimt.",
   },
 ];
 
