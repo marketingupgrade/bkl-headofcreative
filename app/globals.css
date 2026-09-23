@@ -78,3 +78,32 @@ html {
 .doc table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; margin: 1.4em 0 1.8em; font-size: 15px; line-height: 1.45; }
 .doc th, .doc td { border-bottom: 1px solid var(--hairline); padding: 0.65em 0.9em 0.65em 0; text-align: left; vertical-align: top; min-width: 7em; }
 .doc th { font-family: var(--font-mono-face), monospace; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.75px; color: rgba(255, 255, 255, 0.6); }
+
+/* Volume slider of the soundtrack toggle (components/AudioToggle.tsx). */
+.audio-volume {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fcf2d3 var(--vol), #ffffff33 var(--vol));
+  cursor: pointer;
+}
+.audio-volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fcf2d3;
+  border: 0;
+}
+.audio-volume::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fcf2d3;
+  border: 0;
+}
+.audio-volume:focus-visible {
+  outline: 2px solid #fcf2d3;
+  outline-offset: 4px;
+}

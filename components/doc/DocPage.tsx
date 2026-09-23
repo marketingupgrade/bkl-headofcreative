@@ -11,7 +11,7 @@ export default function DocPage({ file, kicker }: { file: string; kicker: string
   return (
     <div className="min-h-screen bg-[#0E0E0E] text-white font-sans">
       <header className="sticky top-0 z-10 border-b border-[#FFFFFF1a] bg-[#0E0E0Ee6] backdrop-blur">
-        <nav className="mx-auto flex max-w-[1100px] items-center justify-between gap-4 px-5 py-4">
+        <nav className="mx-auto flex max-w-[1100px] items-center justify-between gap-4 px-5 py-4 pr-40 max-[767px]:pr-36 min-[1440px]:pr-5">
           <Link href="/" className="font-mono text-xs uppercase tracking-[0.75px] text-[#FFFFFF99] no-underline hover:text-white">
             ← Terug naar het verhaal
           </Link>
