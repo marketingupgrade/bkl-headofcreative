@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lato, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
+import AudioToggle from "@/components/AudioToggle";
 
 // Lato is Buckley's own typeface; Instrument Serif carries the editorial
 // accents; Geist Mono does the small labels.
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="nl" style={{ colorScheme: "dark" }}>
       <body className={`${sans.variable} ${mono.variable} ${serif.variable} antialiased`}>
         {children}
+        <AudioToggle />
       </body>
     </html>
   );

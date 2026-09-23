@@ -344,7 +344,8 @@ export default function TextMaskZoomHero() {
             className="absolute m-0 font-mono"
             style={{
               left: "1.25rem",
-              right: "1.25rem",
+              // Clear of the soundtrack toggle, fixed top right.
+              right: "9rem",
               top: "1.25rem",
               fontSize: "0.75rem",
               lineHeight: 1.5,
