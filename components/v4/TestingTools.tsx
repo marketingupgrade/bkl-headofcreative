@@ -5,7 +5,7 @@
  * @description Testing, learning and tools (§12, §13.4). The five-step
  *   funnel ladder rises as a staircase on a scrubbed ScrollTrigger (each
  *   step y 60 → 0, stagger, scrub 0.6), then verdicts, the Learning Log
- *   rule and a tools strip. Static under reduced motion.
+ *   rule and the toolkit per step of the niche loop. Static under reduced motion.
  */
 
 import * as React from "react";
@@ -21,13 +21,15 @@ const STEPS = [
   { name: "AOV", measure: "het bundelargument", fix: "De 3-pack is een aanbieding en geen reden." },
 ];
 
-const TOOLS = [
-  "Meta Ad Library API · sorteringsmeter en marktradar",
-  "Reacties onder de eigen advertenties",
-  "7.994 Trustpilot-reviews, helpdesk, retourredenen",
-  "Shopify-data per niche",
-  "Hooguit één betaalde tool, na week 3",
-  "AI smal: clusteren en varianten, nooit concepten verzinnen",
+// Existing tools per step of the niche loop. What I would switch on day one,
+// to be checked against their licences in week 1.
+const TOOLKIT = [
+  { step: "Luisteren", tools: "Reacties onder eigen ads, Trustpilot, helpdesk, retourredenen, Meta Ad Library", gain: "De listener oogst, in plaats van dat de strategist verzint." },
+  { step: "Dossier", tools: "AI clustert de 7.994 reviews naar bezwaren en woorden", gain: "Een uur in plaats van een week." },
+  { step: "Creative", tools: "AI voor varianten op een winnende hook, ondertitels, voice-over, eerste ruwe knip", gain: "Editors beginnen bij versie twee. Lokalisatie wordt een iteratie, geen nieuwe productie." },
+  { step: "Live", tools: "Ads Manager met één naamgevingsconventie: niche · hook · format", gain: "Elke ad rapporteert zijn niche vanzelf." },
+  { step: "Uitslag", tools: "Ads Manager (presteerde hij?), Ad Library API (bereikte hij de niche?), Shopify (AOV per niche)", gain: "Eén scorebord, samen met Acquisition." },
+  { step: "Na week 3", tools: "Hooguit één toevoeging: Foreplay of Atria voor swipe files, of Motion voor creative-rapportage", gain: "Pas als duidelijk is welk gat het grootst is." },
 ];
 
 export default function TestingTools() {
@@ -54,17 +56,15 @@ export default function TestingTools() {
         { autoAlpha: 0, scale: 0.92 },
         { autoAlpha: 1, scale: 1, duration: 0.5, ease: "back.out(2)", stagger: 0.12, scrollTrigger: { trigger: q(".tt-verdicts")[0], start: "top 85%", toggleActions: "play none none none" } },
       );
+      q(".tt-row").forEach((row) => {
+        gsap.fromTo(row, { autoAlpha: 0, y: 24 }, { autoAlpha: 1, y: 0, duration: 0.6, ease: "signature", scrollTrigger: { trigger: row, start: "top 90%", toggleActions: "play none none none" } });
+      });
     }, root);
     return () => ctx.revert();
   }, []);
 
   return (
     <section ref={rootRef} className="relative font-sans bg-[#0E0E0E] text-white py-40 max-[767px]:py-24 overflow-x-clip">
-      <style>{`
-        @keyframes tt-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-        .tt-track { animation: tt-marquee 40s linear infinite; }
-        @media (prefers-reduced-motion: reduce) { .tt-track { animation: none; } }
-      `}</style>
       <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5">
         <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99]">Testen en leren</div>
         <h2 className="m-0 mt-4 text-[64px] max-[991px]:text-5xl max-[767px]:text-[36px] font-bold leading-none tracking-[-2px] max-w-[18em]">
@@ -137,25 +137,34 @@ export default function TestingTools() {
         </div>
       </div>
 
-      <div className="mt-20">
-        <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5 mb-5">
-          <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99]">Gereedschap · bijna niets nieuws, want elke migratie kost twee weken</div>
-        </div>
-        <div className="relative overflow-hidden">
-          <div className="tt-track flex w-max gap-3">
-            {[0, 1].map((copy) => (
-              <div key={copy} className="flex gap-3" aria-hidden={copy > 0}>
-                {TOOLS.map((t) => (
-                  <span key={t} className="flex-none rounded-full border border-[#FCF2D366] px-5 py-3 text-[16px] whitespace-nowrap">
-                    {t}
-                  </span>
-                ))}
-              </div>
-            ))}
+      <div className="w-full max-w-[1440px] mx-auto px-8 max-[991px]:px-6 max-[767px]:px-5 mt-20">
+        <div className="uppercase font-mono text-xs font-medium tracking-[0.75px] text-[#FFFFFF99]">Gereedschap per stap van de nichelus</div>
+        <h3 className="m-0 mt-4 text-[clamp(1.6rem,1.2rem+1.6vw,2.6rem)] font-bold leading-[1.05] tracking-[-1px] max-w-[22em]">
+          <span className="text-[#FFFFFF8c]">Bijna niets nieuws, want elke migratie kost twee weken.</span> Wat er al staat, doet het werk.
+        </h3>
+        <div className="tt-kit mt-10 border-t border-[#FFFFFF1a]">
+          <div className="grid grid-cols-[10rem_1fr_1fr] max-[767px]:hidden gap-8 py-3 font-mono uppercase text-[10.5px] tracking-[0.75px] text-[#FFFFFF66] border-b border-[#FFFFFF1a]">
+            <span>Stap</span>
+            <span>Bestaande tools</span>
+            <span>Wat het het team scheelt</span>
           </div>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-[12vw]" style={{ background: "linear-gradient(90deg,#0E0E0E,#0E0E0E00)" }} />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-[12vw]" style={{ background: "linear-gradient(270deg,#0E0E0E,#0E0E0E00)" }} />
+          {TOOLKIT.map((r, i) => (
+            <div
+              key={r.step}
+              className="tt-row grid grid-cols-[10rem_1fr_1fr] max-[767px]:grid-cols-1 gap-8 max-[767px]:gap-2 py-5 border-b border-[#FFFFFF14]"
+            >
+              <div className="flex items-baseline gap-3">
+                <span className="font-mono text-[11px] text-[#FFFFFF66]">0{i + 1}</span>
+                <span className="text-xl font-bold" style={{ color: i === TOOLKIT.length - 1 ? ACCENT : "#FFFFFF" }}>{r.step}</span>
+              </div>
+              <p className="m-0 text-[16px] leading-relaxed text-[#FFFFFFb3]">{r.tools}</p>
+              <p className="m-0 text-[16px] leading-relaxed text-white max-[767px]:pl-3 max-[767px]:border-l max-[767px]:border-[#FCF2D366]">{r.gain}</p>
+            </div>
+          ))}
         </div>
+        <p className="m-0 mt-5 font-mono uppercase text-[10.5px] leading-relaxed tracking-[0.75px] text-[#FFFFFF66] max-w-[60rem]">
+          Wat ik op dag één zou aanzetten, te checken in week 1: ik ken jullie licenties niet. AI blijft smal: clusteren en varianten, nooit concepten verzinnen.
+        </p>
       </div>
     </section>
   );
